@@ -26,6 +26,7 @@ app.get("/questions/:language/:level",(req,res)=>
 {
     lib.getallQuestions({"language":req.params.language,"level":req.params.level},function(err,result)
     {
+        //console.log(result);
         res.json({"questions":result})
     })
 })
@@ -37,4 +38,13 @@ app.post("/questions",(req,res)=>
         res.json({"data":JSON.stringify(result)})
     })
 })
+app.post("/questions/multiple",(req,res)=>
+{   console.log(req.body);
+    lib.CreateManyquestions(req.body,function(err,result)
+    {
+        res.json({"data":JSON.stringify(result)})
+    })
+})
+
+
 
