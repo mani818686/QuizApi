@@ -2,10 +2,12 @@ const express = require('express')
 const app = express();
 const bodyParser = require("body-parser");
 //const axios = require('axios');
+const cors = require("cors");
 const port = 5001;
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+app.use(cors());
 var db=require('./Database/dbconnection');
 var lib=require("./Database/questionlib")
 db.connect()
