@@ -13,5 +13,12 @@ module.exports={
              cb(err,allquestions);
         }
         )
+    },
+    CreateManyquestions : function(Questiondetails, cb) {
+        console.log("Inserting multiple items...");
+        quizmodel.insertMany(Questiondetails, (err, data) => {
+            if (err) console.log('ERROR ' + err);
+            cb(err, data);
+        })
     }
 }
