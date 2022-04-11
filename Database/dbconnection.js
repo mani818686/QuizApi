@@ -1,4 +1,5 @@
 const mongoose=require('mongoose');
+const logger=require('../logger');
 
 module.exports={
     connect : function(){
@@ -8,14 +9,14 @@ module.exports={
 
         var connectionObj = mongoose.connection;
         connectionObj.on('connected', function(){
-            console.log("CONNECTED TO DB");
+            logger.info("CONNECTED TO DB");
         })
         connectionObj.on('disconnected', function(){
-            console.log("DISCONNECTED FROM DB");
+            logger.info("DISCONNECTED TO DB");
         })
 
         connectionObj.on('error', function(err){
-            console.log("ERROR: "+err);
+            logger.error("ERROR: "+err);
         })
     },
     disconnect : function(){

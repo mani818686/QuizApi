@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express();
 const bodyParser = require("body-parser");
+const logger=require("./logger")
 //const axios = require('axios');
 const cors = require("cors");
 const port = 5001;
@@ -11,7 +12,7 @@ app.use(cors());
 var db=require('./Database/dbconnection');
 var lib=require("./Database/questionlib")
 db.connect()
-app.listen(port, () => console.log("Server started"));
+app.listen(port, () => logger.info("Server started at port "+port));
 // app.get('/abc',(req,res)=>
 // {   const url='https://jsonplaceholder.typicode.com/posts';
 //     axios.get(url)
@@ -26,25 +27,54 @@ app.get("/questions/:language/:level",(req,res)=>
 {
     lib.getallQuestions({"language":req.params.language,"level":req.params.level},function(err,result)
     {
-        //console.log(result);
-        res.json({"questions":result})
+        
+        if(err)
+            logger.error("At GET API /questions/language/level")
+        else
+        {
+            logger.info(`Result of GET of API /questions/language/level ${result}`)
+            res.json({"questions":result})
+        }
+        
     })
 })
 
 app.post("/questions",(req,res)=>
-{   console.log(req.body);
+{   logger.info(`Added question with the below data ${req.body}`);
     lib.CreateQuestion(req.body,function(err,result)
     {
+        if(err)
+            logger.error("At POST API /questions")
         res.json({"data":JSON.stringify(result)})
     })
 })
+
 app.post("/questions/multiple",(req,res)=>
-{   console.log(req.body);
+{   logger.info(`Added questions with the below data ${req.body}`);
     lib.CreateManyquestions(req.body,function(err,result)
     {
-        res.json({"data":JSON.stringify(result)})
+        if(err)
+            logger.error("At POST API /questions/multiple")
+        else
+            res.json({"data":JSON.stringify(result)})
+        
     })
 })
+
+
+app.post('/log-client-errors', (req, res) => {
+
+    // let error       = req.body.error.message;
+    // let errorInfo   = req.body.error.stack;
+    // send these errors to some service or to a logger (ex: winston)
+    
+    logger.info(req.body.a)
+    //const b= JSON.parse(a);
+
+   logger.info(`The app received a new client log: ${req.body.a.score}`);
+
+    res.status(200)
+});
 
 
 

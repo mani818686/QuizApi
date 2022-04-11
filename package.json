@@ -14,6 +14,7 @@
     "cors": "^2.8.5",
     "express": "^4.17.3",
     "mongoose": "^6.2.8",
-    "node-fetch": "^3.2.3"
+    "node-fetch": "^3.2.3",
+    "winston": "^3.7.2"
   }
 }
