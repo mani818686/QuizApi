@@ -29,10 +29,11 @@ app.get("/questions/:language/:level",(req,res)=>
     {
         
         if(err)
-            logger.error("At GET API /questions/language/level")
+            logger.error(`At GET API /questions/${req.params.language}/${req.params.level}`)
         else
         {
-            logger.info(`Result of GET of API /questions/language/level ${result}`)
+            logger.info(`Result of GET API /questions/${req.params.language}/${req.params.level} : ${result}`)
+            //logger.info(`Result of GET of API /questions/language/level ${result}`)
             res.json({"questions":result})
         }
         

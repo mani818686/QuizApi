@@ -1,6 +1,1142 @@
-  2022-04-06T07:31:47.405Z   -   [info] -  Server started at port 5001 
-  2022-04-06T07:31:48.449Z   -   [info] -  CONNECTED TO DB 
-  2022-04-06T08:32:28.998Z   -   [info] -  Result of GET of API /questions/language/level {
+  2022-04-11T12:32:48.529Z   -   [info] -  Server started at port 5001 
+  2022-04-11T12:32:48.892Z   -   [info] -  CONNECTED TO DB 
+  2022-04-11T12:32:52.863Z   -   [info] -  Result of GET of API /questions/language/level {
+  _id: new ObjectId("623bfe00934a0b588b481707"),
+  level: 1,
+  language: 'C',
+  questionType: 'single',
+  question: 'Which of the following cannot be a variable name in C?',
+  marks: 1,
+  options: [
+    { text: 'Volatile', _id: new ObjectId("623bfe00934a0b588b481708") },
+    { text: 'True', _id: new ObjectId("623bfe00934a0b588b481709") },
+    { text: 'Friends', _id: new ObjectId("623bfe00934a0b588b48170a") },
+    { text: 'Export', _id: new ObjectId("623bfe00934a0b588b48170b") }
+  ],
+  answers: [
+    { text: 'Volatile', _id: new ObjectId("623bfe00934a0b588b48170c") }
+  ],
+  __v: 0
+},{
+  _id: new ObjectId("623bfee5934a0b588b48170f"),
+  level: 1,
+  language: 'C',
+  questionType: 'single',
+  question: 'What is the result of logical or relational expression in C?',
+  marks: 1,
+  options: [
+    {
+      text: 'True or False',
+      _id: new ObjectId("623bfee5934a0b588b481710")
+    },
+    { text: '0 or 1', _id: new ObjectId("623bfee5934a0b588b481711") },
+    {
+      text: '0 if an expression is false and any positive number if an expression is true',
+      _id: new ObjectId("623bfee5934a0b588b481712")
+    },
+    { text: 'None', _id: new ObjectId("623bfee5934a0b588b481713") }
+  ],
+  answers: [ { text: '0 or 1', _id: new ObjectId("623bfee5934a0b588b481714") } ],
+  __v: 0
+},{
+  _id: new ObjectId("623bff37934a0b588b481716"),
+  level: 1,
+  language: 'C',
+  questionType: 'single',
+  question: ' What is an example of iteration in C',
+  marks: 1,
+  options: [
+    { text: 'for', _id: new ObjectId("623bff37934a0b588b481717") },
+    { text: 'while', _id: new ObjectId("623bff37934a0b588b481718") },
+    { text: 'do-while', _id: new ObjectId("623bff37934a0b588b481719") },
+    {
+      text: 'All the above',
+      _id: new ObjectId("623bff37934a0b588b48171a")
+    }
+  ],
+  answers: [
+    {
+      text: 'All the above',
+      _id: new ObjectId("623bff37934a0b588b48171b")
+    }
+  ],
+  __v: 0
+},{
+  _id: new ObjectId("623bff89934a0b588b48171d"),
+  level: 1,
+  language: 'C',
+  questionType: 'single',
+  question: 'Functions in C Language are always _________',
+  marks: 1,
+  options: [
+    { text: 'external', _id: new ObjectId("623bff89934a0b588b48171e") },
+    { text: 'internal', _id: new ObjectId("623bff89934a0b588b48171f") },
+    { text: 'both', _id: new ObjectId("623bff89934a0b588b481720") },
+    {
+      text: 'None of the above',
+      _id: new ObjectId("623bff89934a0b588b481721")
+    }
+  ],
+  answers: [
+    { text: 'external', _id: new ObjectId("623bff89934a0b588b481722") }
+  ],
+  __v: 0
+},{
+  _id: new ObjectId("623c0292934a0b588b481725"),
+  level: 1,
+  language: 'C',
+  questionType: 'single',
+  question: 'What is #include <stdio.h>?',
+  marks: 1,
+  options: [
+    {
+      text: 'File inclusion directive',
+      _id: new ObjectId("623c0292934a0b588b481726")
+    },
+    {
+      text: 'Inclusion directive',
+      _id: new ObjectId("623c0292934a0b588b481727")
+    },
+    {
+      text: 'Preprocessor directive',
+      _id: new ObjectId("623c0292934a0b588b481728")
+    },
+    { text: 'None', _id: new ObjectId("623c0292934a0b588b481729") }
+  ],
+  answers: [
+    {
+      text: 'Preprocessor directive',
+      _id: new ObjectId("623c0292934a0b588b48172a")
+    }
+  ],
+  __v: 0
+},{
+  _id: new ObjectId("623c02dd934a0b588b48172c"),
+  level: 1,
+  language: 'C',
+  questionType: 'single',
+  question: 'Which of the following return-type cannot be used for a function in C?',
+  marks: 1,
+  options: [
+    { text: 'char*', _id: new ObjectId("623c02dd934a0b588b48172d") },
+    { text: 'struct', _id: new ObjectId("623c02dd934a0b588b48172e") },
+    { text: 'void', _id: new ObjectId("623c02dd934a0b588b48172f") },
+    { text: 'None', _id: new ObjectId("623c02dd934a0b588b481730") }
+  ],
+  answers: [ { text: 'None', _id: new ObjectId("623c02dd934a0b588b481731") } ],
+  __v: 0
+},{
+  _id: new ObjectId("623c03cb934a0b588b481733"),
+  level: 1,
+  language: 'C',
+  questionType: 'single',
+  question: 'What is the sizeof(char) in a 32-bit C compiler?',
+  marks: 1,
+  options: [
+    { text: '1 bit', _id: new ObjectId("623c03cb934a0b588b481734") },
+    { text: '2 bit', _id: new ObjectId("623c03cb934a0b588b481735") },
+    { text: '1 byte', _id: new ObjectId("623c03cb934a0b588b481736") },
+    { text: '2 byte', _id: new ObjectId("623c03cb934a0b588b481737") }
+  ],
+  answers: [ { text: '1 byte', _id: new ObjectId("623c03cb934a0b588b481738") } ],
+  __v: 0
+},{
+  _id: new ObjectId("624163c7a0ad68e657bc444e"),
+  level: 1,
+  language: 'C',
+  questionType: 'single',
+  question: 'Who is the father of C Language',
+  marks: 1,
+  options: [
+    {
+      text: 'James Gausling',
+      _id: new ObjectId("624163c7a0ad68e657bc444f")
+    },
+    {
+      text: 'Dennis Ritche',
+      _id: new ObjectId("624163c7a0ad68e657bc4450")
+    },
+    {
+      text: 'Van Rossum',
+      _id: new ObjectId("624163c7a0ad68e657bc4451")
+    },
+    {
+      text: 'Bjarne Stroustrup',
+      _id: new ObjectId("624163c7a0ad68e657bc4452")
+    }
+  ],
+  answers: [
+    {
+      text: 'Dennis Ritche',
+      _id: new ObjectId("624163c7a0ad68e657bc4453")
+    }
+  ],
+  __v: 0
+},{
+  _id: new ObjectId("62416432a0ad68e657bc445c"),
+  level: 1,
+  language: 'C',
+  questionType: 'single',
+  question: 'All keywords in C are in __________',
+  marks: 2,
+  options: [
+    {
+      text: 'lowercase',
+      _id: new ObjectId("62416432a0ad68e657bc445d")
+    },
+    {
+      text: 'uppercase',
+      _id: new ObjectId("62416432a0ad68e657bc445e")
+    },
+    {
+      text: 'camelcase',
+      _id: new ObjectId("62416432a0ad68e657bc445f")
+    },
+    { text: 'None', _id: new ObjectId("62416432a0ad68e657bc4460") }
+  ],
+  answers: [
+    {
+      text: 'lowercase',
+      _id: new ObjectId("62416432a0ad68e657bc4461")
+    }
+  ],
+  __v: 0
+},{
+  _id: new ObjectId("62416432a0ad68e657bc4456"),
+  level: 1,
+  language: 'C',
+  questionType: 'single',
+  question: 'Which of the following is not a valid C variable name?',
+  marks: 2,
+  options: [
+    {
+      text: 'int number',
+      _id: new ObjectId("62416432a0ad68e657bc4457")
+    },
+    {
+      text: 'float rate',
+      _id: new ObjectId("62416432a0ad68e657bc4458")
+    },
+    {
+      text: 'int variable_count',
+      _id: new ObjectId("62416432a0ad68e657bc4459")
+    },
+    {
+      text: 'int $main',
+      _id: new ObjectId("62416432a0ad68e657bc445a")
+    }
+  ],
+  answers: [
+    {
+      text: 'int $main',
+      _id: new ObjectId("62416432a0ad68e657bc445b")
+    }
+  ],
+  __v: 0
+} 
+  2022-04-11T12:32:56.716Z   -   [info] -  Result of GET of API /questions/language/level {
+  _id: new ObjectId("623bfe00934a0b588b481707"),
+  level: 1,
+  language: 'C',
+  questionType: 'single',
+  question: 'Which of the following cannot be a variable name in C?',
+  marks: 1,
+  options: [
+    { text: 'Volatile', _id: new ObjectId("623bfe00934a0b588b481708") },
+    { text: 'True', _id: new ObjectId("623bfe00934a0b588b481709") },
+    { text: 'Friends', _id: new ObjectId("623bfe00934a0b588b48170a") },
+    { text: 'Export', _id: new ObjectId("623bfe00934a0b588b48170b") }
+  ],
+  answers: [
+    { text: 'Volatile', _id: new ObjectId("623bfe00934a0b588b48170c") }
+  ],
+  __v: 0
+},{
+  _id: new ObjectId("623bfee5934a0b588b48170f"),
+  level: 1,
+  language: 'C',
+  questionType: 'single',
+  question: 'What is the result of logical or relational expression in C?',
+  marks: 1,
+  options: [
+    {
+      text: 'True or False',
+      _id: new ObjectId("623bfee5934a0b588b481710")
+    },
+    { text: '0 or 1', _id: new ObjectId("623bfee5934a0b588b481711") },
+    {
+      text: '0 if an expression is false and any positive number if an expression is true',
+      _id: new ObjectId("623bfee5934a0b588b481712")
+    },
+    { text: 'None', _id: new ObjectId("623bfee5934a0b588b481713") }
+  ],
+  answers: [ { text: '0 or 1', _id: new ObjectId("623bfee5934a0b588b481714") } ],
+  __v: 0
+},{
+  _id: new ObjectId("623bff37934a0b588b481716"),
+  level: 1,
+  language: 'C',
+  questionType: 'single',
+  question: ' What is an example of iteration in C',
+  marks: 1,
+  options: [
+    { text: 'for', _id: new ObjectId("623bff37934a0b588b481717") },
+    { text: 'while', _id: new ObjectId("623bff37934a0b588b481718") },
+    { text: 'do-while', _id: new ObjectId("623bff37934a0b588b481719") },
+    {
+      text: 'All the above',
+      _id: new ObjectId("623bff37934a0b588b48171a")
+    }
+  ],
+  answers: [
+    {
+      text: 'All the above',
+      _id: new ObjectId("623bff37934a0b588b48171b")
+    }
+  ],
+  __v: 0
+},{
+  _id: new ObjectId("623bff89934a0b588b48171d"),
+  level: 1,
+  language: 'C',
+  questionType: 'single',
+  question: 'Functions in C Language are always _________',
+  marks: 1,
+  options: [
+    { text: 'external', _id: new ObjectId("623bff89934a0b588b48171e") },
+    { text: 'internal', _id: new ObjectId("623bff89934a0b588b48171f") },
+    { text: 'both', _id: new ObjectId("623bff89934a0b588b481720") },
+    {
+      text: 'None of the above',
+      _id: new ObjectId("623bff89934a0b588b481721")
+    }
+  ],
+  answers: [
+    { text: 'external', _id: new ObjectId("623bff89934a0b588b481722") }
+  ],
+  __v: 0
+},{
+  _id: new ObjectId("623c0292934a0b588b481725"),
+  level: 1,
+  language: 'C',
+  questionType: 'single',
+  question: 'What is #include <stdio.h>?',
+  marks: 1,
+  options: [
+    {
+      text: 'File inclusion directive',
+      _id: new ObjectId("623c0292934a0b588b481726")
+    },
+    {
+      text: 'Inclusion directive',
+      _id: new ObjectId("623c0292934a0b588b481727")
+    },
+    {
+      text: 'Preprocessor directive',
+      _id: new ObjectId("623c0292934a0b588b481728")
+    },
+    { text: 'None', _id: new ObjectId("623c0292934a0b588b481729") }
+  ],
+  answers: [
+    {
+      text: 'Preprocessor directive',
+      _id: new ObjectId("623c0292934a0b588b48172a")
+    }
+  ],
+  __v: 0
+},{
+  _id: new ObjectId("623c02dd934a0b588b48172c"),
+  level: 1,
+  language: 'C',
+  questionType: 'single',
+  question: 'Which of the following return-type cannot be used for a function in C?',
+  marks: 1,
+  options: [
+    { text: 'char*', _id: new ObjectId("623c02dd934a0b588b48172d") },
+    { text: 'struct', _id: new ObjectId("623c02dd934a0b588b48172e") },
+    { text: 'void', _id: new ObjectId("623c02dd934a0b588b48172f") },
+    { text: 'None', _id: new ObjectId("623c02dd934a0b588b481730") }
+  ],
+  answers: [ { text: 'None', _id: new ObjectId("623c02dd934a0b588b481731") } ],
+  __v: 0
+},{
+  _id: new ObjectId("623c03cb934a0b588b481733"),
+  level: 1,
+  language: 'C',
+  questionType: 'single',
+  question: 'What is the sizeof(char) in a 32-bit C compiler?',
+  marks: 1,
+  options: [
+    { text: '1 bit', _id: new ObjectId("623c03cb934a0b588b481734") },
+    { text: '2 bit', _id: new ObjectId("623c03cb934a0b588b481735") },
+    { text: '1 byte', _id: new ObjectId("623c03cb934a0b588b481736") },
+    { text: '2 byte', _id: new ObjectId("623c03cb934a0b588b481737") }
+  ],
+  answers: [ { text: '1 byte', _id: new ObjectId("623c03cb934a0b588b481738") } ],
+  __v: 0
+},{
+  _id: new ObjectId("624163c7a0ad68e657bc444e"),
+  level: 1,
+  language: 'C',
+  questionType: 'single',
+  question: 'Who is the father of C Language',
+  marks: 1,
+  options: [
+    {
+      text: 'James Gausling',
+      _id: new ObjectId("624163c7a0ad68e657bc444f")
+    },
+    {
+      text: 'Dennis Ritche',
+      _id: new ObjectId("624163c7a0ad68e657bc4450")
+    },
+    {
+      text: 'Van Rossum',
+      _id: new ObjectId("624163c7a0ad68e657bc4451")
+    },
+    {
+      text: 'Bjarne Stroustrup',
+      _id: new ObjectId("624163c7a0ad68e657bc4452")
+    }
+  ],
+  answers: [
+    {
+      text: 'Dennis Ritche',
+      _id: new ObjectId("624163c7a0ad68e657bc4453")
+    }
+  ],
+  __v: 0
+},{
+  _id: new ObjectId("62416432a0ad68e657bc445c"),
+  level: 1,
+  language: 'C',
+  questionType: 'single',
+  question: 'All keywords in C are in __________',
+  marks: 2,
+  options: [
+    {
+      text: 'lowercase',
+      _id: new ObjectId("62416432a0ad68e657bc445d")
+    },
+    {
+      text: 'uppercase',
+      _id: new ObjectId("62416432a0ad68e657bc445e")
+    },
+    {
+      text: 'camelcase',
+      _id: new ObjectId("62416432a0ad68e657bc445f")
+    },
+    { text: 'None', _id: new ObjectId("62416432a0ad68e657bc4460") }
+  ],
+  answers: [
+    {
+      text: 'lowercase',
+      _id: new ObjectId("62416432a0ad68e657bc4461")
+    }
+  ],
+  __v: 0
+},{
+  _id: new ObjectId("62416432a0ad68e657bc4456"),
+  level: 1,
+  language: 'C',
+  questionType: 'single',
+  question: 'Which of the following is not a valid C variable name?',
+  marks: 2,
+  options: [
+    {
+      text: 'int number',
+      _id: new ObjectId("62416432a0ad68e657bc4457")
+    },
+    {
+      text: 'float rate',
+      _id: new ObjectId("62416432a0ad68e657bc4458")
+    },
+    {
+      text: 'int variable_count',
+      _id: new ObjectId("62416432a0ad68e657bc4459")
+    },
+    {
+      text: 'int $main',
+      _id: new ObjectId("62416432a0ad68e657bc445a")
+    }
+  ],
+  answers: [
+    {
+      text: 'int $main',
+      _id: new ObjectId("62416432a0ad68e657bc445b")
+    }
+  ],
+  __v: 0
+} 
+  2022-04-11T12:33:11.635Z   -   [info] -  [object Object] 
+  2022-04-11T12:33:11.635Z   -   [info] -  The app received a new client log: 6 
+  2022-04-11T12:35:12.915Z   -   [info] -  Server started at port 5001 
+  2022-04-11T12:35:13.811Z   -   [info] -  CONNECTED TO DB 
+  2022-04-11T12:35:19.283Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:35:20.455Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:35:23.322Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:35:30.547Z   -   [info] -  [object Object] 
+  2022-04-11T12:35:30.547Z   -   [info] -  The app received a new client log: 1 
+  2022-04-11T12:38:07.014Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:38:20.026Z   -   [info] -  [object Object] 
+  2022-04-11T12:38:20.027Z   -   [info] -  The app received a new client log: 2 
+  2022-04-11T12:39:31.758Z   -   [info] -  Server started at port 5001 
+  2022-04-11T12:39:32.662Z   -   [info] -  CONNECTED TO DB 
+  2022-04-11T12:39:34.789Z   -   [info] -  Result of GET API /questions/C/1 : {
+  _id: new ObjectId("623bfe00934a0b588b481707"),
+  level: 1,
+  language: 'C',
+  questionType: 'single',
+  question: 'Which of the following cannot be a variable name in C?',
+  marks: 1,
+  options: [
+    { text: 'Volatile', _id: new ObjectId("623bfe00934a0b588b481708") },
+    { text: 'True', _id: new ObjectId("623bfe00934a0b588b481709") },
+    { text: 'Friends', _id: new ObjectId("623bfe00934a0b588b48170a") },
+    { text: 'Export', _id: new ObjectId("623bfe00934a0b588b48170b") }
+  ],
+  answers: [
+    { text: 'Volatile', _id: new ObjectId("623bfe00934a0b588b48170c") }
+  ],
+  __v: 0
+},{
+  _id: new ObjectId("623bfee5934a0b588b48170f"),
+  level: 1,
+  language: 'C',
+  questionType: 'single',
+  question: 'What is the result of logical or relational expression in C?',
+  marks: 1,
+  options: [
+    {
+      text: 'True or False',logger.error(`At GET API /questions/${req.params.language}/${req.params.level}`)
+      _id: new ObjectId("623bfee5934a0b588b481710")
+    },
+    { text: '0 or 1', _id: new ObjectId("623bfee5934a0b588b481711") },
+    {
+      text: '0 if an expression is false and any positive number if an expression is true',
+      _id: new ObjectId("623bfee5934a0b588b481712")
+    },
+    { text: 'None', _id: new ObjectId("623bfee5934a0b588b481713") }
+  ],
+  answers: [ { text: '0 or 1', _id: new ObjectId("623bfee5934a0b588b481714") } ],
+  __v: 0
+},{
+  _id: new ObjectId("623bff37934a0b588b481716"),
+  level: 1,
+  language: 'C',
+  questionType: 'single',
+  question: ' What is an example of iteration in C',
+  marks: 1,
+  options: [
+    { text: 'for', _id: new ObjectId("623bff37934a0b588b481717") },
+    { text: 'while', _id: new ObjectId("623bff37934a0b588b481718") },
+    { text: 'do-while', _id: new ObjectId("623bff37934a0b588b481719") },
+    {
+      text: 'All the above',
+      _id: new ObjectId("623bff37934a0b588b48171a")
+    }
+  ],
+  answers: [
+    {
+      text: 'All the above',
+      _id: new ObjectId("623bff37934a0b588b48171b")
+    }
+  ],
+  __v: 0
+},{
+  _id: new ObjectId("623bff89934a0b588b48171d"),
+  level: 1,
+  language: 'C',
+  questionType: 'single',
+  question: 'Functions in C Language are always _________',
+  marks: 1,
+  options: [
+    { text: 'external', _id: new ObjectId("623bff89934a0b588b48171e") },
+    { text: 'internal', _id: new ObjectId("623bff89934a0b588b48171f") },
+    { text: 'both', _id: new ObjectId("623bff89934a0b588b481720") },
+    {
+      text: 'None of the above',
+      _id: new ObjectId("623bff89934a0b588b481721")
+    }
+  ],
+  answers: [
+    { text: 'external', _id: new ObjectId("623bff89934a0b588b481722") }
+  ],
+  __v: 0
+},{
+  _id: new ObjectId("623c0292934a0b588b481725"),
+  level: 1,
+  language: 'C',
+  questionType: 'single',
+  question: 'What is #include <stdio.h>?',
+  marks: 1,
+  options: [
+    {
+      text: 'File inclusion directive',
+      _id: new ObjectId("623c0292934a0b588b481726")
+    },
+    {
+      text: 'Inclusion directive',
+      _id: new ObjectId("623c0292934a0b588b481727")
+    },
+    {
+      text: 'Preprocessor directive',
+      _id: new ObjectId("623c0292934a0b588b481728")
+    },
+    { text: 'None', _id: new ObjectId("623c0292934a0b588b481729") }
+  ],
+  answers: [
+    {
+      text: 'Preprocessor directive',
+      _id: new ObjectId("623c0292934a0b588b48172a")
+    }
+  ],
+  __v: 0
+},{
+  _id: new ObjectId("623c02dd934a0b588b48172c"),
+  level: 1,
+  language: 'C',
+  questionType: 'single',
+  question: 'Which of the following return-type cannot be used for a function in C?',
+  marks: 1,
+  options: [
+    { text: 'char*', _id: new ObjectId("623c02dd934a0b588b48172d") },
+    { text: 'struct', _id: new ObjectId("623c02dd934a0b588b48172e") },
+    { text: 'void', _id: new ObjectId("623c02dd934a0b588b48172f") },
+    { text: 'None', _id: new ObjectId("623c02dd934a0b588b481730") }
+  ],
+  answers: [ { text: 'None', _id: new ObjectId("623c02dd934a0b588b481731") } ],
+  __v: 0
+},{
+  _id: new ObjectId("623c03cb934a0b588b481733"),
+  level: 1,
+  language: 'C',
+  questionType: 'single',
+  question: 'What is the sizeof(char) in a 32-bit C compiler?',
+  marks: 1,
+  options: [
+    { text: '1 bit', _id: new ObjectId("623c03cb934a0b588b481734") },
+    { text: '2 bit', _id: new ObjectId("623c03cb934a0b588b481735") },
+    { text: '1 byte', _id: new ObjectId("623c03cb934a0b588b481736") },
+    { text: '2 byte', _id: new ObjectId("623c03cb934a0b588b481737") }
+  ],
+  answers: [ { text: '1 byte', _id: new ObjectId("623c03cb934a0b588b481738") } ],
+  __v: 0
+},{
+  _id: new ObjectId("624163c7a0ad68e657bc444e"),
+  level: 1,
+  language: 'C',
+  questionType: 'single',
+  question: 'Who is the father of C Language',
+  marks: 1,
+  options: [
+    {
+      text: 'James Gausling',
+      _id: new ObjectId("624163c7a0ad68e657bc444f")
+    },
+    {
+      text: 'Dennis Ritche',
+      _id: new ObjectId("624163c7a0ad68e657bc4450")
+    },
+    {
+      text: 'Van Rossum',
+      _id: new ObjectId("624163c7a0ad68e657bc4451")
+    },
+    {
+      text: 'Bjarne Stroustrup',
+      _id: new ObjectId("624163c7a0ad68e657bc4452")
+    }
+  ],
+  answers: [
+    {
+      text: 'Dennis Ritche',
+      _id: new ObjectId("624163c7a0ad68e657bc4453")
+    }
+  ],
+  __v: 0
+},{
+  _id: new ObjectId("62416432a0ad68e657bc445c"),
+  level: 1,
+  language: 'C',
+  questionType: 'single',
+  question: 'All keywords in C are in __________',
+  marks: 2,
+  options: [
+    {
+      text: 'lowercase',
+      _id: new ObjectId("62416432a0ad68e657bc445d")
+    },
+    {
+      text: 'uppercase',
+      _id: new ObjectId("62416432a0ad68e657bc445e")
+    },
+    {
+      text: 'camelcase',
+      _id: new ObjectId("62416432a0ad68e657bc445f")
+    },
+    { text: 'None', _id: new ObjectId("62416432a0ad68e657bc4460") }
+  ],
+  answers: [
+    {
+      text: 'lowercase',
+      _id: new ObjectId("62416432a0ad68e657bc4461")
+    }
+  ],
+  __v: 0
+},{
+  _id: new ObjectId("62416432a0ad68e657bc4456"),
+  level: 1,
+  language: 'C',
+  questionType: 'single',
+  question: 'Which of the following is not a valid C variable name?',
+  marks: 2,
+  options: [
+    {
+      text: 'int number',
+      _id: new ObjectId("62416432a0ad68e657bc4457")
+    },
+    {
+      text: 'float rate',
+      _id: new ObjectId("62416432a0ad68e657bc4458")
+    },
+    {
+      text: 'int variable_count',
+      _id: new ObjectId("62416432a0ad68e657bc4459")
+    },
+    {
+      text: 'int $main',
+      _id: new ObjectId("62416432a0ad68e657bc445a")
+    }
+  ],
+  answers: [
+    {
+      text: 'int $main',
+      _id: new ObjectId("62416432a0ad68e657bc445b")
+    }
+  ],
+  __v: 0
+} 
+  2022-04-11T12:39:35.739Z   -   [info] -  Result of GET API /questions/C/1 : {
+  _id: new ObjectId("623bfe00934a0b588b481707"),
+  level: 1,
+  language: 'C',
+  questionType: 'single',
+  question: 'Which of the following cannot be a variable name in C?',
+  marks: 1,
+  options: [
+    { text: 'Volatile', _id: new ObjectId("623bfe00934a0b588b481708") },
+    { text: 'True', _id: new ObjectId("623bfe00934a0b588b481709") },
+    { text: 'Friends', _id: new ObjectId("623bfe00934a0b588b48170a") },
+    { text: 'Export', _id: new ObjectId("623bfe00934a0b588b48170b") }
+  ],
+  answers: [
+    { text: 'Volatile', _id: new ObjectId("623bfe00934a0b588b48170c") }
+  ],
+  __v: 0
+},{
+  _id: new ObjectId("623bfee5934a0b588b48170f"),
+  level: 1,
+  language: 'C',
+  questionType: 'single',
+  question: 'What is the result of logical or relational expression in C?',
+  marks: 1,
+  options: [
+    {
+      text: 'True or False',
+      _id: new ObjectId("623bfee5934a0b588b481710")
+    },
+    { text: '0 or 1', _id: new ObjectId("623bfee5934a0b588b481711") },
+    {
+      text: '0 if an expression is false and any positive number if an expression is true',
+      _id: new ObjectId("623bfee5934a0b588b481712")
+    },
+    { text: 'None', _id: new ObjectId("623bfee5934a0b588b481713") }
+  ],
+  answers: [ { text: '0 or 1', _id: new ObjectId("623bfee5934a0b588b481714") } ],
+  __v: 0
+},{
+  _id: new ObjectId("623bff37934a0b588b481716"),
+  level: 1,
+  language: 'C',
+  questionType: 'single',
+  question: ' What is an example of iteration in C',
+  marks: 1,
+  options: [
+    { text: 'for', _id: new ObjectId("623bff37934a0b588b481717") },
+    { text: 'while', _id: new ObjectId("623bff37934a0b588b481718") },
+    { text: 'do-while', _id: new ObjectId("623bff37934a0b588b481719") },
+    {
+      text: 'All the above',
+      _id: new ObjectId("623bff37934a0b588b48171a")
+    }
+  ],
+  answers: [
+    {
+      text: 'All the above',
+      _id: new ObjectId("623bff37934a0b588b48171b")
+    }
+  ],
+  __v: 0
+},{
+  _id: new ObjectId("623bff89934a0b588b48171d"),
+  level: 1,
+  language: 'C',
+  questionType: 'single',
+  question: 'Functions in C Language are always _________',
+  marks: 1,
+  options: [
+    { text: 'external', _id: new ObjectId("623bff89934a0b588b48171e") },
+    { text: 'internal', _id: new ObjectId("623bff89934a0b588b48171f") },
+    { text: 'both', _id: new ObjectId("623bff89934a0b588b481720") },
+    {
+      text: 'None of the above',
+      _id: new ObjectId("623bff89934a0b588b481721")
+    }
+  ],
+  answers: [
+    { text: 'external', _id: new ObjectId("623bff89934a0b588b481722") }
+  ],
+  __v: 0
+},{
+  _id: new ObjectId("623c0292934a0b588b481725"),
+  level: 1,
+  language: 'C',
+  questionType: 'single',
+  question: 'What is #include <stdio.h>?',
+  marks: 1,
+  options: [
+    {
+      text: 'File inclusion directive',
+      _id: new ObjectId("623c0292934a0b588b481726")
+    },
+    {
+      text: 'Inclusion directive',
+      _id: new ObjectId("623c0292934a0b588b481727")
+    },
+    {
+      text: 'Preprocessor directive',
+      _id: new ObjectId("623c0292934a0b588b481728")
+    },
+    { text: 'None', _id: new ObjectId("623c0292934a0b588b481729") }
+  ],
+  answers: [
+    {
+      text: 'Preprocessor directive',
+      _id: new ObjectId("623c0292934a0b588b48172a")
+    }
+  ],
+  __v: 0
+},{
+  _id: new ObjectId("623c02dd934a0b588b48172c"),
+  level: 1,
+  language: 'C',
+  questionType: 'single',
+  question: 'Which of the following return-type cannot be used for a function in C?',
+  marks: 1,
+  options: [
+    { text: 'char*', _id: new ObjectId("623c02dd934a0b588b48172d") },
+    { text: 'struct', _id: new ObjectId("623c02dd934a0b588b48172e") },
+    { text: 'void', _id: new ObjectId("623c02dd934a0b588b48172f") },
+    { text: 'None', _id: new ObjectId("623c02dd934a0b588b481730") }
+  ],
+  answers: [ { text: 'None', _id: new ObjectId("623c02dd934a0b588b481731") } ],
+  __v: 0
+},{
+  _id: new ObjectId("623c03cb934a0b588b481733"),
+  level: 1,
+  language: 'C',
+  questionType: 'single',
+  question: 'What is the sizeof(char) in a 32-bit C compiler?',
+  marks: 1,
+  options: [
+    { text: '1 bit', _id: new ObjectId("623c03cb934a0b588b481734") },
+    { text: '2 bit', _id: new ObjectId("623c03cb934a0b588b481735") },
+    { text: '1 byte', _id: new ObjectId("623c03cb934a0b588b481736") },
+    { text: '2 byte', _id: new ObjectId("623c03cb934a0b588b481737") }
+  ],
+  answers: [ { text: '1 byte', _id: new ObjectId("623c03cb934a0b588b481738") } ],
+  __v: 0
+},{
+  _id: new ObjectId("624163c7a0ad68e657bc444e"),
+  level: 1,
+  language: 'C',
+  questionType: 'single',
+  question: 'Who is the father of C Language',
+  marks: 1,
+  options: [
+    {
+      text: 'James Gausling',
+      _id: new ObjectId("624163c7a0ad68e657bc444f")
+    },
+    {
+      text: 'Dennis Ritche',
+      _id: new ObjectId("624163c7a0ad68e657bc4450")
+    },
+    {
+      text: 'Van Rossum',
+      _id: new ObjectId("624163c7a0ad68e657bc4451")
+    },
+    {
+      text: 'Bjarne Stroustrup',
+      _id: new ObjectId("624163c7a0ad68e657bc4452")
+    }
+  ],
+  answers: [
+    {
+      text: 'Dennis Ritche',
+      _id: new ObjectId("624163c7a0ad68e657bc4453")
+    }
+  ],
+  __v: 0
+},{
+  _id: new ObjectId("62416432a0ad68e657bc445c"),
+  level: 1,
+  language: 'C',
+  questionType: 'single',
+  question: 'All keywords in C are in __________',
+  marks: 2,
+  options: [
+    {
+      text: 'lowercase',
+      _id: new ObjectId("62416432a0ad68e657bc445d")
+    },
+    {
+      text: 'uppercase',
+      _id: new ObjectId("62416432a0ad68e657bc445e")
+    },
+    {
+      text: 'camelcase',
+      _id: new ObjectId("62416432a0ad68e657bc445f")
+    },
+    { text: 'None', _id: new ObjectId("62416432a0ad68e657bc4460") }
+  ],
+  answers: [
+    {
+      text: 'lowercase',
+      _id: new ObjectId("62416432a0ad68e657bc4461")
+    }
+  ],
+  __v: 0
+},{
+  _id: new ObjectId("62416432a0ad68e657bc4456"),
+  level: 1,
+  language: 'C',
+  questionType: 'single',
+  question: 'Which of the following is not a valid C variable name?',
+  marks: 2,
+  options: [
+    {
+      text: 'int number',
+      _id: new ObjectId("62416432a0ad68e657bc4457")
+    },
+    {
+      text: 'float rate',
+      _id: new ObjectId("62416432a0ad68e657bc4458")
+    },
+    {
+      text: 'int variable_count',
+      _id: new ObjectId("62416432a0ad68e657bc4459")
+    },
+    {
+      text: 'int $main',
+      _id: new ObjectId("62416432a0ad68e657bc445a")
+    }
+  ],
+  answers: [
+    {
+      text: 'int $main',
+      _id: new ObjectId("62416432a0ad68e657bc445b")
+    }
+  ],
+  __v: 0
+} 
+  2022-04-11T12:39:42.877Z   -   [info] -  [object Object] 
+  2022-04-11T12:39:42.878Z   -   [info] -  The app received a new client log: 1 
+  2022-04-11T12:33:11.635Z   -   [info] -  [object Object] 
+  2022-04-11T12:33:11.635Z   -   [info] -  The app received a new client log: 6 
+  2022-04-11T12:35:12.915Z   -   [info] -  Server started at port 5001 
+  2022-04-11T12:35:13.811Z   -   [info] -  CONNECTED TO DB 
+  2022-04-11T12:35:19.283Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:35:20.455Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:35:23.322Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:35:30.547Z   -   [info] -  [object Object] 
+  2022-04-11T12:35:30.547Z   -   [info] -  The app received a new client log: 1 
+  2022-04-11T12:38:07.014Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:38:20.026Z   -   [info] -  [object Object] 
+  2022-04-11T12:38:20.027Z   -   [info] -  The app received a new client log: 2 
+  2022-04-11T12:39:31.758Z   -   [info] -  Server started at port 5001 
+  2022-04-11T12:39:32.662Z   -   [info] -  CONNECTED TO DB   2022-04-11T12:33:11.635Z   -   [info] -  [object Object] 
+  2022-04-11T12:33:11.635Z   -   [info] -  The app received a new client log: 6 
+  2022-04-11T12:35:12.915Z   -   [info] -  Server started at port 5001 
+  2022-04-11T12:35:13.811Z   -   [info] -  CONNECTED TO DB 
+  2022-04-11T12:35:19.283Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:35:20.455Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:35:23.322Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:35:30.547Z   -   [info] -  [object Object] 
+  2022-04-11T12:35:30.547Z   -   [info] -  The app received a new client log: 1 
+  2022-04-11T12:38:07.014Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:38:20.026Z   -   [info] -  [object Object] 
+  2022-04-11T12:38:20.027Z   -   [info] -  The app received a new client log: 2 
+  2022-04-11T12:39:31.758Z   -   [info] -  Server started at port 5001 
+  2022-04-11T12:39:32.662Z   -   [info] -  CONNECTED TO DB   2022-04-11T12:33:11.635Z   -   [info] -  [object Object] 
+  2022-04-11T12:33:11.635Z   -   [info] -  The app received a new client log: 6 
+  2022-04-11T12:35:12.915Z   -   [info] -  Server started at port 5001 
+  2022-04-11T12:35:13.811Z   -   [info] -  CONNECTED TO DB 
+  2022-04-11T12:35:19.283Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:35:20.455Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:35:23.322Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:35:30.547Z   -   [info] -  [object Object] 
+  2022-04-11T12:35:30.547Z   -   [info] -  The app received a new client log: 1 
+  2022-04-11T12:38:07.014Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:38:20.026Z   -   [info] -  [object Object] 
+  2022-04-11T12:38:20.027Z   -   [info] -  The app received a new client log: 2 
+  2022-04-11T12:39:31.758Z   -   [info] -  Server started at port 5001 
+  2022-04-11T12:39:32.662Z   -   [info] -  CONNECTED TO DB   2022-04-11T12:33:11.635Z   -   [info] -  [object Object] 
+  2022-04-11T12:33:11.635Z   -   [info] -  The app received a new client log: 6 
+  2022-04-11T12:35:12.915Z   -   [info] -  Server started at port 5001 
+  2022-04-11T12:35:13.811Z   -   [info] -  CONNECTED TO DB 
+  2022-04-11T12:35:19.283Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:35:20.455Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:35:23.322Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:35:30.547Z   -   [info] -  [object Object] 
+  2022-04-11T12:35:30.547Z   -   [info] -  The app received a new client log: 1 
+  2022-04-11T12:38:07.014Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:38:20.026Z   -   [info] -  [object Object] 
+  2022-04-11T12:38:20.027Z   -   [info] -  The app received a new client log: 2 
+  2022-04-11T12:39:31.758Z   -   [info] -  Server started at port 5001 
+  2022-04-11T12:39:32.662Z   -   [info] -  CONNECTED TO DB 
+    2022-04-11T12:33:11.635Z   -   [info] -  [object Object] 
+  2022-04-11T12:33:11.635Z   -   [info] -  The app received a new client log: 6 
+  2022-04-11T12:35:12.915Z   -   [info] -  Server started at port 5001 
+  2022-04-11T12:35:13.811Z   -   [info] -  CONNECTED TO DB 
+  2022-04-11T12:35:19.283Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:35:20.455Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:35:23.322Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:35:30.547Z   -   [info] -  [object Object] 
+  2022-04-11T12:35:30.547Z   -   [info] -  The app received a new client log: 1 
+  2022-04-11T12:38:07.014Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:38:20.026Z   -   [info] -  [object Object] 
+  2022-04-11T12:38:20.027Z   -   [info] -  The app received a new client log: 2 
+  2022-04-11T12:39:31.758Z   -   [info] -  Server started at port 5001 
+  2022-04-11T12:39:32.662Z   -   [info] -  CONNECTED TO DB   2022-04-11T12:33:11.635Z   -   [info] -  [object Object] 
+  2022-04-11T12:33:11.635Z   -   [info] -  The app received a new client log: 6 
+  2022-04-11T12:35:12.915Z   -   [info] -  Server started at port 5001 
+  2022-04-11T12:35:13.811Z   -   [info] -  CONNECTED TO DB 
+  2022-04-11T12:35:19.283Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:35:20.455Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:35:23.322Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:35:30.547Z   -   [info] -  [object Object] 
+  2022-04-11T12:35:30.547Z   -   [info] -  The app received a new client log: 1 
+  2022-04-11T12:38:07.014Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:38:20.026Z   -   [info] -  [object Object] 
+  2022-04-11T12:38:20.027Z   -   [info] -  The app received a new client log: 2 
+  2022-04-11T12:39:31.758Z   -   [info] -  Server started at port 5001 
+  2022-04-11T12:39:32.662Z   -   [info] -  CONNECTED TO DB   2022-04-11T12:33:11.635Z   -   [info] -  [object Object] 
+  2022-04-11T12:33:11.635Z   -   [info] -  The app received a new client log: 6 
+  2022-04-11T12:35:12.915Z   -   [info] -  Server started at port 5001 
+  2022-04-11T12:35:13.811Z   -   [info] -  CONNECTED TO DB 
+  2022-04-11T12:35:19.283Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:35:20.455Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:35:23.322Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:35:30.547Z   -   [info] -  [object Object] 
+  2022-04-11T12:35:30.547Z   -   [info] -  The app received a new client log: 1 
+  2022-04-11T12:38:07.014Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:38:20.026Z   -   [info] -  [object Object] 
+  2022-04-11T12:38:20.027Z   -   [info] -  The app received a new client log: 2 
+  2022-04-11T12:39:31.758Z   -   [info] -  Server started at port 5001 
+  2022-04-11T12:39:32.662Z   -   [info] -  CONNECTED TO DB   2022-04-11T12:33:11.635Z   -   [info] -  [object Object] 
+  2022-04-11T12:33:11.635Z   -   [info] -  The app received a new client log: 6 
+  2022-04-11T12:35:12.915Z   -   [info] -  Server started at port 5001 
+  2022-04-11T12:35:13.811Z   -   [info] -  CONNECTED TO DB 
+  2022-04-11T12:35:19.283Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:35:20.455Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:35:23.322Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:35:30.547Z   -   [info] -  [object Object] 
+  2022-04-11T12:35:30.547Z   -   [info] -  The app received a new client log: 1 
+  2022-04-11T12:38:07.014Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:38:20.026Z   -   [info] -  [object Object] 
+  2022-04-11T12:38:20.027Z   -   [info] -  The app received a new client log: 2 
+  2022-04-11T12:39:31.758Z   -   [info] -  Server started at port 5001 
+  2022-04-11T12:39:32.662Z   -   [info] -  CONNECTED TO DB 
+    2022-04-11T12:33:11.635Z   -   [info] -  [object Object] 
+  2022-04-11T12:33:11.635Z   -   [info] -  The app received a new client log: 6 
+  2022-04-11T12:35:12.915Z   -   [info] -  Server started at port 5001 
+  2022-04-11T12:35:13.811Z   -   [info] -  CONNECTED TO DB 
+  2022-04-11T12:35:19.283Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:35:20.455Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:35:23.322Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:35:30.547Z   -   [info] -  [object Object] 
+  2022-04-11T12:35:30.547Z   -   [info] -  The app received a new client log: 1 
+  2022-04-11T12:38:07.014Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:38:20.026Z   -   [info] -  [object Object] 
+  2022-04-11T12:38:20.027Z   -   [info] -  The app received a new client log: 2 
+  2022-04-11T12:39:31.758Z   -   [info] -  Server started at port 5001 
+  2022-04-11T12:39:32.662Z   -   [info] -  CONNECTED TO DB   2022-04-11T12:33:11.635Z   -   [info] -  [object Object] 
+  2022-04-11T12:33:11.635Z   -   [info] -  The app received a new client log: 6 
+  2022-04-11T12:35:12.915Z   -   [info] -  Server started at port 5001 
+  2022-04-11T12:35:13.811Z   -   [info] -  CONNECTED TO DB 
+  2022-04-11T12:35:19.283Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:35:20.455Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:35:23.322Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:35:30.547Z   -   [info] -  [object Object] 
+  2022-04-11T12:35:30.547Z   -   [info] -  The app received a new client log: 1 
+  2022-04-11T12:38:07.014Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:38:20.026Z   -   [info] -  [object Object] 
+  2022-04-11T12:38:20.027Z   -   [info] -  The app received a new client log: 2 
+  2022-04-11T12:39:31.758Z   -   [info] -  Server started at port 5001 
+  2022-04-11T12:39:32.662Z   -   [info] -  CONNECTED TO DB   2022-04-11T12:33:11.635Z   -   [info] -  [object Object] 
+  2022-04-11T12:33:11.635Z   -   [info] -  The app received a new client log: 6 
+  2022-04-11T12:35:12.915Z   -   [info] -  Server started at port 5001 
+  2022-04-11T12:35:13.811Z   -   [info] -  CONNECTED TO DB 
+  2022-04-11T12:35:19.283Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:35:20.455Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:35:23.322Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:35:30.547Z   -   [info] -  [object Object] 
+  2022-04-11T12:35:30.547Z   -   [info] -  The app received a new client log: 1 
+  2022-04-11T12:38:07.014Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:38:20.026Z   -   [info] -  [object Object] 
+  2022-04-11T12:38:20.027Z   -   [info] -  The app received a new client log: 2 
+  2022-04-11T12:39:31.758Z   -   [info] -  Server started at port 5001 
+  2022-04-11T12:39:32.662Z   -   [info] -  CONNECTED TO DB   2022-04-11T12:33:11.635Z   -   [info] -  [object Object] 
+  2022-04-11T12:33:11.635Z   -   [info] -  The app received a new client log: 6 
+  2022-04-11T12:35:12.915Z   -   [info] -  Server started at port 5001 
+  2022-04-11T12:35:13.811Z   -   [info] -  CONNECTED TO DB 
+  2022-04-11T12:35:19.283Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:35:20.455Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:35:23.322Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:35:30.547Z   -   [info] -  [object Object] 
+  2022-04-11T12:35:30.547Z   -   [info] -  The app received a new client log: 1 
+  2022-04-11T12:38:07.014Z   -   [info] -  Result of GET API /questions/C/1 
+  2022-04-11T12:38:20.026Z   -   [info] -  [object Object] 
+  2022-04-11T12:38:20.027Z   -   [info] -  The app received a new client log: 2 
+  2022-04-11T12:39:31.758Z   -   [info] -  Server started at port 5001 
+  2022-04-11T12:39:32.662Z   -   [info] -  CONNECTED TO DB 
+  2022-04-11T12:35:19.283Z   -   [info] -  Result of GET API /questions/Cpp/1 
+  2022-04-11T12:35:20.455Z   -   [info] -  Result of GET API /questions/Cpp/1 
+  2022-04-11T12:35:23.322Z   -   [info] -  Result of GET API /questions/Cpp/1 
+  2022-04-11T12:35:19.283Z   -   [info] -  Result of GET API /questions/Python/1 
+  2022-04-11T12:35:20.455Z   -   [info] -  Result of GET API /questions/Python/1 
+  2022-04-11T12:35:23.322Z   -   [info] -  Result of GET API /questions/Python/1 
+  2022-04-11T12:35:19.283Z   -   [info] -  Result of GET API /questions/Cpp/1 
+  2022-04-11T12:35:20.455Z   -   [info] -  Result of GET API /questions/Cpp/1 
+  2022-04-11T12:35:23.322Z   -   [info] -  Result of GET API /questions/Cpp/1 
+  2022-04-11T12:35:19.283Z   -   [info] -  Result of GET API /questions/Python/1 
+  2022-04-11T12:35:20.455Z   -   [info] -  Result of GET API /questions/Python/1 
+  2022-04-11T12:35:23.322Z   -   [info] -  Result of GET API /questions/Python/1 
+  2022-04-22T22:35:29.283Z   -   [info] -  Result of GET API /questions/Cpp/2 
+  2022-04-22T22:35:20.455Z   -   [info] -  Result of GET API /questions/Cpp/2 
+  2022-04-22T22:35:23.322Z   -   [info] -  Result of GET API /questions/Cpp/2 
+  2022-04-22T22:35:29.283Z   -   [info] -  Result of GET API /questions/Python/2 
+  2022-04-22T22:35:20.455Z   -   [info] -  Result of GET API /questions/Python/2 
+  2022-04-22T22:35:23.322Z   -   [info] -  Result of GET API /questions/Python/2 
+  2022-04-22T22:35:29.283Z   -   [info] -  Result of GET API /questions/Cpp/2 
+  2022-04-22T22:35:20.455Z   -   [info] -  Result of GET API /questions/Cpp/2 
+  2022-04-22T22:35:23.322Z   -   [info] -  Result of GET API /questions/Cpp/2 
+  2022-04-22T22:35:29.283Z   -   [info] -  Result of GET API /questions/Python/2 
+  2022-04-22T22:35:20.455Z   -   [info] -  Result of GET API /questions/Python/2 
+  2022-04-22T22:35:23.322Z   -   [info] -  Result of GET API /questions/Python/2   2022-04-13T11:00:32.137Z   -   [info] -  Server started at port 5001 
+  2022-04-13T11:00:33.063Z   -   [info] -  CONNECTED TO DB 
+  2022-04-13T11:00:39.877Z   -   [info] -  Result of GET API /questions/C/1 : {
   _id: new ObjectId("623bfe00934a0b588b481707"),
   level: 1,
   language: 'C',
@@ -234,7 +1370,11 @@
   ],
   __v: 0
 } 
-  2022-04-06T09:25:05.665Z   -   [info] -  Result of GET of API /questions/language/level {
+  2022-04-13T11:01:03.425Z   -   [info] -  [object Object] 
+  2022-04-13T11:01:03.425Z   -   [info] -  The app received a new client log: 3 
+  2022-04-18T05:13:45.973Z   -   [info] -  Server started at port 5001 
+  2022-04-18T05:13:47.076Z   -   [info] -  CONNECTED TO DB 
+  2022-04-18T05:13:54.736Z   -   [info] -  Result of GET API /questions/C/1 : {
   _id: new ObjectId("623bfe00934a0b588b481707"),
   level: 1,
   language: 'C',
@@ -468,2268 +1608,508 @@
   ],
   __v: 0
 } 
-  2022-04-06T09:25:10.095Z   -   [info] -  Result of GET of API /questions/language/level {
-  _id: new ObjectId("623d4b01461cb0fed685f199"),
+
+  2022-04-11T12:35:19.283Z   -   [info] -  Result of GET API /questions/Python/1 
+  2022-04-11T12:35:20.455Z   -   [info] -  Result of GET API /questions/Python/1 
+  2022-04-11T12:35:23.322Z   -   [info] -  Result of GET API /questions/Python/1 
+
+
+  2022-04-11T12:35:19.283Z   -   [info] -  Result of GET API /questions/Python/2 
+  2022-04-11T12:35:20.455Z   -   [info] -  Result of GET API /questions/Python/2 
+  2022-04-11T12:35:23.322Z   -   [info] -  Result of GET API /questions/Python/2 
+
+
+  2022-04-11T12:35:19.283Z   -   [info] -  Result of GET API /questions/Cpp/2 
+  2022-04-11T12:35:20.455Z   -   [info] -  Result of GET API /questions/Cpp/2 
+  2022-04-11T12:35:23.322Z   -   [info] -  Result of GET API /questions/Cpp/2 
+
+  2022-04-11T12:35:19.283Z   -   [info] -  Result of GET API /questions/java/2 
+  2022-04-11T12:35:20.455Z   -   [info] -  Result of GET API /questions/java/2 
+  2022-04-11T12:35:23.322Z   -   [info] -  Result of GET API /questions/java/2 
+
+  2022-04-11T12:35:19.283Z   -   [info] -  Result of GET API /questions/java/1
+  2022-04-11T12:35:20.455Z   -   [info] -  Result of GET API /questions/java/1 
+  2022-04-11T12:35:23.322Z   -   [info] -  Result of GET API /questions/java/1 
+
+  2022-04-11T12:35:19.283Z   -   [info] -  Result of GET API /questions/java/2 
+  2022-04-11T12:35:20.455Z   -   [info] -  Result of GET API /questions/java/2 
+  2022-04-11T12:35:23.322Z   -   [info] -  Result of GET API /questions/java/2 
+
+  2022-04-11T12:35:19.283Z   -   [info] -  Result of GET API /questions/java/1
+  2022-04-11T12:35:20.455Z   -   [info] -  Result of GET API /questions/java/1 
+  2022-04-11T12:35:23.322Z   -   [info] -  Result of GET API /questions/java/1 
+
+  2022-04-11T12:35:19.283Z   -   [info] -  Result of GET API /questions/java/2 
+  2022-04-11T12:35:20.455Z   -   [info] -  Result of GET API /questions/java/2 
+  2022-04-11T12:35:23.322Z   -   [info] -  Result of GET API /questions/java/2 
+
+  2022-04-11T12:35:19.283Z   -   [info] -  Result of GET API /questions/java/1
+  2022-04-11T12:35:20.455Z   -   [info] -  Result of GET API /questions/java/1 
+  2022-04-11T12:35:23.322Z   -   [info] -  Result of GET API /questions/java/1 
+
+  2022-04-11T12:35:19.283Z   -   [info] -  Result of GET API /questions/java/2 
+  2022-04-11T12:35:20.455Z   -   [info] -  Result of GET API /questions/java/2 
+  2022-04-11T12:35:23.322Z   -   [info] -  Result of GET API /questions/java/2 
+
+  2022-04-11T12:35:19.283Z   -   [info] -  Result of GET API /questions/java/1
+  2022-04-11T12:35:20.455Z   -   [info] -  Result of GET API /questions/java/1 
+  2022-04-11T12:35:23.322Z   -   [info] -  Result of GET API /questions/java/1 
+
+  2022-04-11T12:35:19.283Z   -   [info] -  Result of GET API /questions/java/2 
+  2022-04-11T12:35:20.455Z   -   [info] -  Result of GET API /questions/java/2 
+  2022-04-11T12:35:23.322Z   -   [info] -  Result of GET API /questions/java/2 
+
+  2022-04-11T12:35:19.283Z   -   [info] -  Result of GET API /questions/java/1
+  2022-04-11T12:35:20.455Z   -   [info] -  Result of GET API /questions/java/1 
+  2022-04-11T12:35:23.322Z   -   [info] -  Result of GET API /questions/java/1 
+
+  2022-04-11T12:35:19.283Z   -   [info] -  Result of GET API /questions/java/2 
+  2022-04-11T12:35:20.455Z   -   [info] -  Result of GET API /questions/java/2 
+  2022-04-11T12:35:23.322Z   -   [info] -  Result of GET API /questions/java/2 
+
+  2022-04-11T12:35:19.283Z   -   [info] -  Result of GET API /questions/java/1
+  2022-04-11T12:35:20.455Z   -   [info] -  Result of GET API /questions/java/1 
+  2022-04-11T12:35:23.322Z   -   [info] -  Result of GET API /questions/java/1 
+
+  2022-04-11T12:35:19.283Z   -   [info] -  Result of GET API /questions/java/2 
+  2022-04-11T12:35:20.455Z   -   [info] -  Result of GET API /questions/java/2 
+  2022-04-11T12:35:23.322Z   -   [info] -  Result of GET API /questions/java/2 
+
+  2022-04-11T12:35:19.283Z   -   [info] -  Result of GET API /questions/java/1
+  2022-04-11T12:35:20.455Z   -   [info] -  Result of GET API /questions/java/1 
+  2022-04-11T12:35:23.322Z   -   [info] -  Result of GET API /questions/java/1   2022-04-18T06:14:02.574Z   -   [info] -  Server started at port 5001 
+  2022-04-18T06:14:03.675Z   -   [info] -  CONNECTED TO DB 
+  2022-04-18T06:14:22.087Z   -   [info] -  Result of GET API /questions/Python/1 : {
+  _id: new ObjectId("623c04c7934a0b588b48173a"),
   level: 1,
-  language: 'java',
+  language: 'Python',
   questionType: 'single',
-  question: 'Number of primitive data types in Java are?',
+  question: 'What is output of following code −, x = 2,y = 10,x * = y * x + 1',
   marks: 1,
   options: [
-    { text: 'val', _id: new ObjectId("623d4b01461cb0fed685f19a") },
-    { text: 'raise', _id: new ObjectId("623d4b01461cb0fed685f19b") },
-    { text: 'try', _id: new ObjectId("623d4b01461cb0fed685f19c") },
-    { text: 'with', _id: new ObjectId("623d4b01461cb0fed685f19d") }
+    { text: '42', _id: new ObjectId("623c04c7934a0b588b48173b") },
+    { text: '41', _id: new ObjectId("623c04c7934a0b588b48173c") },
+    { text: '40', _id: new ObjectId("623c04c7934a0b588b48173d") },
+    { text: '39', _id: new ObjectId("623c04c7934a0b588b48173e") }
   ],
-  answers: [ { text: 'val', _id: new ObjectId("623d4b01461cb0fed685f19e") } ],
+  answers: [ { text: '42', _id: new ObjectId("623c04c7934a0b588b48173f") } ],
   __v: 0
 },{
-  _id: new ObjectId("623d4cb2461cb0fed685f1a1"),
+  _id: new ObjectId("623c055a934a0b588b481749"),
   level: 1,
-  language: 'java',
+  language: 'Python',
   questionType: 'single',
-  question: ' Which of the following is not a Java features?',
-  marks: 1,
-  options: [
-    { text: 'dynamic', _id: new ObjectId("623d4cb2461cb0fed685f1a2") },
-    {
-      text: 'architecture neutral',
-      _id: new ObjectId("623d4cb2461cb0fed685f1a3")
-    },
-    {
-      text: 'Use of pointers',
-      _id: new ObjectId("623d4cb2461cb0fed685f1a4")
-    },
-    {
-      text: 'Object-oriented',
-      _id: new ObjectId("623d4cb2461cb0fed685f1a5")
-    }
-  ],
-  answers: [
-    {
-      text: 'Use of pointers',
-      _id: new ObjectId("623d4cb2461cb0fed685f1a6")
-    }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("623d4d28461cb0fed685f1a8"),
-  level: 1,
-  language: 'java',
-  questionType: 'single',
-  question: 'The ! article referred to as a',
+  question: 'In the following options which are python libraries which are used for data analysis and scientific computations',
   marks: 2,
   options: [
+    { text: 'Numpy', _id: new ObjectId("623c055a934a0b588b48174a") },
+    { text: 'Scipy', _id: new ObjectId("623c055a934a0b588b48174b") },
+    { text: 'Pandas', _id: new ObjectId("623c055a934a0b588b48174c") },
     {
-      text: 'Unicode escape sequence',
-      _id: new ObjectId("623d4d28461cb0fed685f1a9")
-    },
-    {
-      text: 'Octal escape',
-      _id: new ObjectId("623d4d28461cb0fed685f1aa")
-    },
-    {
-      text: 'Hexadecimal',
-      _id: new ObjectId("623d4d28461cb0fed685f1ab")
-    },
-    {
-      text: 'Line feed',
-      _id: new ObjectId("623d4d28461cb0fed685f1ac")
+      text: 'All the above',
+      _id: new ObjectId("623c055a934a0b588b48174d")
     }
   ],
   answers: [
     {
-      text: 'Unicode escape sequence',
-      _id: new ObjectId("623d4d28461cb0fed685f1ad")
+      text: 'All the above',
+      _id: new ObjectId("623c055a934a0b588b48174e")
     }
   ],
   __v: 0
 },{
-  _id: new ObjectId("623d4e82461cb0fed685f1af"),
+  _id: new ObjectId("623c05a9934a0b588b481750"),
   level: 1,
-  language: 'java',
+  language: 'Python',
   questionType: 'single',
-  question: ' Which of the following tool is used to generate API documentation in HTML format from doc comments in source code?',
-  marks: 2,
-  options: [
-    {
-      text: 'javap tool',
-      _id: new ObjectId("623d4e82461cb0fed685f1b0")
-    },
-    {
-      text: 'javaw command',
-      _id: new ObjectId("623d4e82461cb0fed685f1b1")
-    },
-    {
-      text: 'Javadoc tool',
-      _id: new ObjectId("623d4e82461cb0fed685f1b2")
-    },
-    {
-      text: 'javah command',
-      _id: new ObjectId("623d4e82461cb0fed685f1b3")
-    }
-  ],
-  answers: [
-    {
-      text: 'Javadoc tool',
-      _id: new ObjectId("623d4e82461cb0fed685f1b4")
-    }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("623d4efe461cb0fed685f1b6"),
-  level: 1,
-  language: 'java',
-  questionType: 'single',
-  question: 'Which of the following creates a List of 3 visible items and multiple selections abled?',
-  marks: 2,
-  options: [
-    {
-      text: 'new List(false, 3)',
-      _id: new ObjectId("623d4efe461cb0fed685f1b7")
-    },
-    {
-      text: 'new List(3, true)',
-      _id: new ObjectId("623d4efe461cb0fed685f1b8")
-    },
-    {
-      text: 'new List(true, 3)',
-      _id: new ObjectId("623d4efe461cb0fed685f1b9")
-    },
-    {
-      text: 'new List(3, false)',
-      _id: new ObjectId("623d4efe461cb0fed685f1ba")
-    }
-  ],
-  answers: [
-    {
-      text: 'new List(3, true)',
-      _id: new ObjectId("623d4efe461cb0fed685f1bb")
-    }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("623d4f5d461cb0fed685f1bd"),
-  level: 1,
-  language: 'java',
-  questionType: 'single',
-  question: 'In which process, a local variable has the same name as one of the instance variables?',
+  question: 'What will be the value of the following Python expression? 4 + 3 % 5 ',
   marks: 3,
   options: [
+    { text: '7', _id: new ObjectId("623c05a9934a0b588b481751") },
+    { text: '2', _id: new ObjectId("623c05a9934a0b588b481752") },
+    { text: '4', _id: new ObjectId("623c05a9934a0b588b481753") },
+    { text: '1', _id: new ObjectId("623c05a9934a0b588b481754") }
+  ],
+  answers: [ { text: '7', _id: new ObjectId("623c05a9934a0b588b481755") } ],
+  __v: 0
+},{
+  _id: new ObjectId("623c05d9934a0b588b481757"),
+  level: 1,
+  language: 'Python',
+  questionType: 'single',
+  question: 'Which of the following is used to define a block of code in Python language?',
+  marks: 4,
+  options: [
     {
-      text: 'Serialization',
-      _id: new ObjectId("623d4f5d461cb0fed685f1be")
+      text: 'Indentation',
+      _id: new ObjectId("623c05d9934a0b588b481758")
     },
+    { text: 'Key', _id: new ObjectId("623c05d9934a0b588b481759") },
+    { text: 'Brackets', _id: new ObjectId("623c05d9934a0b588b48175a") },
     {
-      text: 'Variable Shadowing',
-      _id: new ObjectId("623d4f5d461cb0fed685f1bf")
-    },
-    {
-      text: 'Threading',
-      _id: new ObjectId("623d4f5d461cb0fed685f1c0")
-    },
-    {
-      text: 'Abstraction',
-      _id: new ObjectId("623d4f5d461cb0fed685f1c1")
+      text: 'All of the mentioned',
+      _id: new ObjectId("623c05d9934a0b588b48175b")
     }
   ],
   answers: [
     {
-      text: 'Variable Shadowing',
-      _id: new ObjectId("623d4f5d461cb0fed685f1c2")
+      text: 'Indentation',
+      _id: new ObjectId("623c05d9934a0b588b48175c")
     }
   ],
   __v: 0
 },{
-  _id: new ObjectId("623d4fc5461cb0fed685f1c4"),
+  _id: new ObjectId("623c0603934a0b588b48175e"),
   level: 1,
-  language: 'java',
+  language: 'Python',
   questionType: 'single',
-  question: 'Which package contains the Random class?',
+  question: 'Is Python case sensitive when dealing with identifiers?  ',
+  marks: 2,
+  options: [
+    { text: 'no', _id: new ObjectId("623c0603934a0b588b48175f") },
+    { text: 'yes', _id: new ObjectId("623c0603934a0b588b481760") },
+    {
+      text: 'machine dependent',
+      _id: new ObjectId("623c0603934a0b588b481761")
+    },
+    {
+      text: 'none of the mentioned',
+      _id: new ObjectId("623c0603934a0b588b481762")
+    }
+  ],
+  answers: [ { text: 'no', _id: new ObjectId("623c0603934a0b588b481763") } ],
+  __v: 0
+},{
+  _id: new ObjectId("623c08485d1e56ff10268f76"),
+  level: 1,
+  language: 'Python',
+  questionType: 'single',
+  question: 'Python supports the creation of anonymous functions at runtime, using a construct called __________ ',
+  marks: 1,
+  options: [
+    { text: 'pi', _id: new ObjectId("623c08485d1e56ff10268f77") },
+    {
+      text: 'anonymous',
+      _id: new ObjectId("623c08485d1e56ff10268f78")
+    },
+    { text: 'lambda', _id: new ObjectId("623c08485d1e56ff10268f79") },
+    {
+      text: 'none of the mentioned',
+      _id: new ObjectId("623c08485d1e56ff10268f7a")
+    }
+  ],
+  answers: [ { text: 'lambda', _id: new ObjectId("623c08485d1e56ff10268f7b") } ],
+  __v: 0
+},{
+  _id: new ObjectId("623c08485d1e56ff10268f7c"),
+  level: 1,
+  language: 'Python',
+  questionType: 'single',
+  question: 'What does pip stand for python? ',
+  marks: 1,
+  options: [
+    {
+      text: 'unlimited length',
+      _id: new ObjectId("623c08485d1e56ff10268f7d")
+    },
+    {
+      text: 'all private members must have leading and trailing underscores',
+      _id: new ObjectId("623c08485d1e56ff10268f7e")
+    },
+    {
+      text: 'Preferred Installer Program',
+      _id: new ObjectId("623c08485d1e56ff10268f7f")
+    },
+    {
+      text: 'none of the mentioned',
+      _id: new ObjectId("623c08485d1e56ff10268f80")
+    }
+  ],
+  answers: [
+    {
+      text: 'Preferred Installer Program',
+      _id: new ObjectId("623c08485d1e56ff10268f81")
+    }
+  ],
+  __v: 0
+},{
+  _id: new ObjectId("623c08cd5d1e56ff10268f89"),
+  level: 1,
+  language: 'Python',
+  questionType: 'single',
+  question: 'Which of the following character is used to give single-line comments in Python?',
   marks: 3,
   options: [
-    {
-      text: 'java.util package',
-      _id: new ObjectId("623d4fc5461cb0fed685f1c5")
-    },
-    {
-      text: 'java.lang package',
-      _id: new ObjectId("623d4fc5461cb0fed685f1c6")
-    },
-    {
-      text: 'java.random package',
-      _id: new ObjectId("623d4fc5461cb0fed685f1c7")
-    },
-    {
-      text: 'java.io package',
-      _id: new ObjectId("623d4fc5461cb0fed685f1c8")
-    }
+    { text: '//', _id: new ObjectId("623c08cd5d1e56ff10268f8a") },
+    { text: '#', _id: new ObjectId("623c08cd5d1e56ff10268f8b") },
+    { text: ' !', _id: new ObjectId("623c08cd5d1e56ff10268f8c") },
+    { text: '/*', _id: new ObjectId("623c08cd5d1e56ff10268f8d") }
   ],
-  answers: [
-    {
-      text: 'java.util package',
-      _id: new ObjectId("623d4fc5461cb0fed685f1c9")
-    }
-  ],
+  answers: [ { text: '#', _id: new ObjectId("623c08cd5d1e56ff10268f8e") } ],
   __v: 0
 },{
-  _id: new ObjectId("623d5064461cb0fed685f1cd"),
+  _id: new ObjectId("623c08cd5d1e56ff10268f83"),
   level: 1,
-  language: 'java',
+  language: 'Python',
   questionType: 'single',
-  question: 'An interface with no fields or methods is known as a ______',
-  marks: 2,
-  options: [
-    {
-      text: 'Runnable Interface',
-      _id: new ObjectId("623d5064461cb0fed685f1ce")
-    },
-    {
-      text: 'Markable Interface',
-      _id: new ObjectId("623d5064461cb0fed685f1cf")
-    },
-    {
-      text: 'Character Interface',
-      _id: new ObjectId("623d5064461cb0fed685f1d0")
-    },
-    {
-      text: 'Abstract Interface',
-      _id: new ObjectId("623d5064461cb0fed685f1d1")
-    }
-  ],
-  answers: [
-    {
-      text: 'Markable Interface',
-      _id: new ObjectId("623d5064461cb0fed685f1d2")
-    }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("623d50c4461cb0fed685f1d4"),
-  level: 1,
-  language: 'java',
-  questionType: 'single',
-  question: 'Which of the following is an immediate subclass of the Panel class?',
+  question: 'Which of the following is the correct extension of the Python file? ',
   marks: 1,
   options: [
-    {
-      text: 'Applet class',
-      _id: new ObjectId("623d50c4461cb0fed685f1d5")
-    },
-    {
-      text: 'Window class',
-      _id: new ObjectId("623d50c4461cb0fed685f1d6")
-    },
-    {
-      text: 'Frame Class',
-      _id: new ObjectId("623d50c4461cb0fed685f1d7")
-    },
-    {
-      text: 'Dialogue class',
-      _id: new ObjectId("623d50c4461cb0fed685f1d8")
-    }
+    { text: '.python', _id: new ObjectId("623c08cd5d1e56ff10268f84") },
+    { text: '.pl', _id: new ObjectId("623c08cd5d1e56ff10268f85") },
+    { text: '.py', _id: new ObjectId("623c08cd5d1e56ff10268f86") },
+    { text: '.p', _id: new ObjectId("623c08cd5d1e56ff10268f87") }
   ],
-  answers: [
-    {
-      text: 'Applet class',
-      _id: new ObjectId("623d50c4461cb0fed685f1d9")
-    }
-  ],
+  answers: [ { text: '.py', _id: new ObjectId("623c08cd5d1e56ff10268f88") } ],
   __v: 0
 },{
-  _id: new ObjectId("623d5117461cb0fed685f1db"),
+  _id: new ObjectId("623c08cd5d1e56ff10268f8f"),
   level: 1,
-  language: 'java',
+  language: 'Python',
   questionType: 'single',
-  question: 'In which memory a String is stored, when we create a string using new operator?',
+  question: 'Which of the following functions can help us to find the version of python that we are currently working on? ',
   marks: 2,
   options: [
-    { text: 'stack', _id: new ObjectId("623d5117461cb0fed685f1dc") },
     {
-      text: 'heap memory',
-      _id: new ObjectId("623d5117461cb0fed685f1dd")
+      text: 'sys.version(1)',
+      _id: new ObjectId("623c08cd5d1e56ff10268f90")
     },
     {
-      text: 'string memory',
-      _id: new ObjectId("623d5117461cb0fed685f1de")
+      text: 'sys.version(0)',
+      _id: new ObjectId("623c08cd5d1e56ff10268f91")
     },
     {
-      text: 'main memory',
-      _id: new ObjectId("623d5117461cb0fed685f1df")
+      text: 'sys.version()',
+      _id: new ObjectId("623c08cd5d1e56ff10268f92")
+    },
+    {
+      text: ' sys.version',
+      _id: new ObjectId("623c08cd5d1e56ff10268f93")
     }
   ],
   answers: [
     {
-      text: 'heap memory',
-      _id: new ObjectId("623d5117461cb0fed685f1e0")
+      text: 'sys.version(1)',
+      _id: new ObjectId("623c08cd5d1e56ff10268f94")
     }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("623d5158461cb0fed685f1e2"),
-  level: 1,
-  language: 'java',
-  questionType: 'single',
-  question: ' Which of the following is a reserved keyword in Java?',
-  marks: 2,
-  options: [
-    { text: 'strictfp', _id: new ObjectId("623d5158461cb0fed685f1e3") },
-    { text: 'object', _id: new ObjectId("623d5158461cb0fed685f1e4") },
-    { text: 'class', _id: new ObjectId("623d5158461cb0fed685f1e5") },
-    {
-      text: 'main memory',
-      _id: new ObjectId("623d5158461cb0fed685f1e6")
-    }
-  ],
-  answers: [
-    { text: 'strictfp', _id: new ObjectId("623d5158461cb0fed685f1e7") }
   ],
   __v: 0
 } 
-  2022-04-06T09:27:00.278Z   -   [info] -  [object Object] 
-  2022-04-06T09:27:00.278Z   -   [info] -  The app received a new client log: 4 
-  2022-04-06T09:27:14.217Z   -   [info] -  Result of GET of API /questions/language/level {
-  _id: new ObjectId("623d4b01461cb0fed685f199"),
+  2022-04-18T06:14:58.583Z   -   [info] -  [object Object] 
+  2022-04-18T06:14:58.583Z   -   [info] -  The app received a new client log: 4 
+  2022-04-18T06:15:03.604Z   -   [info] -  Result of GET API /questions/Python/1 : {
+  _id: new ObjectId("623c04c7934a0b588b48173a"),
   level: 1,
-  language: 'java',
+  language: 'Python',
   questionType: 'single',
-  question: 'Number of primitive data types in Java are?',
+  question: 'What is output of following code −, x = 2,y = 10,x * = y * x + 1',
   marks: 1,
   options: [
-    { text: 'val', _id: new ObjectId("623d4b01461cb0fed685f19a") },
-    { text: 'raise', _id: new ObjectId("623d4b01461cb0fed685f19b") },
-    { text: 'try', _id: new ObjectId("623d4b01461cb0fed685f19c") },
-    { text: 'with', _id: new ObjectId("623d4b01461cb0fed685f19d") }
+    { text: '42', _id: new ObjectId("623c04c7934a0b588b48173b") },
+    { text: '41', _id: new ObjectId("623c04c7934a0b588b48173c") },
+    { text: '40', _id: new ObjectId("623c04c7934a0b588b48173d") },
+    { text: '39', _id: new ObjectId("623c04c7934a0b588b48173e") }
   ],
-  answers: [ { text: 'val', _id: new ObjectId("623d4b01461cb0fed685f19e") } ],
+  answers: [ { text: '42', _id: new ObjectId("623c04c7934a0b588b48173f") } ],
   __v: 0
 },{
-  _id: new ObjectId("623d4cb2461cb0fed685f1a1"),
+  _id: new ObjectId("623c055a934a0b588b481749"),
   level: 1,
-  language: 'java',
+  language: 'Python',
   questionType: 'single',
-  question: ' Which of the following is not a Java features?',
-  marks: 1,
-  options: [
-    { text: 'dynamic', _id: new ObjectId("623d4cb2461cb0fed685f1a2") },
-    {
-      text: 'architecture neutral',
-      _id: new ObjectId("623d4cb2461cb0fed685f1a3")
-    },
-    {
-      text: 'Use of pointers',
-      _id: new ObjectId("623d4cb2461cb0fed685f1a4")
-    },
-    {
-      text: 'Object-oriented',
-      _id: new ObjectId("623d4cb2461cb0fed685f1a5")
-    }
-  ],
-  answers: [
-    {
-      text: 'Use of pointers',
-      _id: new ObjectId("623d4cb2461cb0fed685f1a6")
-    }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("623d4d28461cb0fed685f1a8"),
-  level: 1,
-  language: 'java',
-  questionType: 'single',
-  question: 'The ! article referred to as a',
+  question: 'In the following options which are python libraries which are used for data analysis and scientific computations',
   marks: 2,
   options: [
+    { text: 'Numpy', _id: new ObjectId("623c055a934a0b588b48174a") },
+    { text: 'Scipy', _id: new ObjectId("623c055a934a0b588b48174b") },
+    { text: 'Pandas', _id: new ObjectId("623c055a934a0b588b48174c") },
     {
-      text: 'Unicode escape sequence',
-      _id: new ObjectId("623d4d28461cb0fed685f1a9")
-    },
-    {
-      text: 'Octal escape',
-      _id: new ObjectId("623d4d28461cb0fed685f1aa")
-    },
-    {
-      text: 'Hexadecimal',
-      _id: new ObjectId("623d4d28461cb0fed685f1ab")
-    },
-    {
-      text: 'Line feed',
-      _id: new ObjectId("623d4d28461cb0fed685f1ac")
+      text: 'All the above',
+      _id: new ObjectId("623c055a934a0b588b48174d")
     }
   ],
   answers: [
     {
-      text: 'Unicode escape sequence',
-      _id: new ObjectId("623d4d28461cb0fed685f1ad")
+      text: 'All the above',
+      _id: new ObjectId("623c055a934a0b588b48174e")
     }
   ],
   __v: 0
 },{
-  _id: new ObjectId("623d4e82461cb0fed685f1af"),
+  _id: new ObjectId("623c05a9934a0b588b481750"),
   level: 1,
-  language: 'java',
+  language: 'Python',
   questionType: 'single',
-  question: ' Which of the following tool is used to generate API documentation in HTML format from doc comments in source code?',
-  marks: 2,
-  options: [
-    {
-      text: 'javap tool',
-      _id: new ObjectId("623d4e82461cb0fed685f1b0")
-    },
-    {
-      text: 'javaw command',
-      _id: new ObjectId("623d4e82461cb0fed685f1b1")
-    },
-    {
-      text: 'Javadoc tool',
-      _id: new ObjectId("623d4e82461cb0fed685f1b2")
-    },
-    {
-      text: 'javah command',
-      _id: new ObjectId("623d4e82461cb0fed685f1b3")
-    }
-  ],
-  answers: [
-    {
-      text: 'Javadoc tool',
-      _id: new ObjectId("623d4e82461cb0fed685f1b4")
-    }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("623d4efe461cb0fed685f1b6"),
-  level: 1,
-  language: 'java',
-  questionType: 'single',
-  question: 'Which of the following creates a List of 3 visible items and multiple selections abled?',
-  marks: 2,
-  options: [
-    {
-      text: 'new List(false, 3)',
-      _id: new ObjectId("623d4efe461cb0fed685f1b7")
-    },
-    {
-      text: 'new List(3, true)',
-      _id: new ObjectId("623d4efe461cb0fed685f1b8")
-    },
-    {
-      text: 'new List(true, 3)',
-      _id: new ObjectId("623d4efe461cb0fed685f1b9")
-    },
-    {
-      text: 'new List(3, false)',
-      _id: new ObjectId("623d4efe461cb0fed685f1ba")
-    }
-  ],
-  answers: [
-    {
-      text: 'new List(3, true)',
-      _id: new ObjectId("623d4efe461cb0fed685f1bb")
-    }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("623d4f5d461cb0fed685f1bd"),
-  level: 1,
-  language: 'java',
-  questionType: 'single',
-  question: 'In which process, a local variable has the same name as one of the instance variables?',
+  question: 'What will be the value of the following Python expression? 4 + 3 % 5 ',
   marks: 3,
   options: [
+    { text: '7', _id: new ObjectId("623c05a9934a0b588b481751") },
+    { text: '2', _id: new ObjectId("623c05a9934a0b588b481752") },
+    { text: '4', _id: new ObjectId("623c05a9934a0b588b481753") },
+    { text: '1', _id: new ObjectId("623c05a9934a0b588b481754") }
+  ],
+  answers: [ { text: '7', _id: new ObjectId("623c05a9934a0b588b481755") } ],
+  __v: 0
+},{
+  _id: new ObjectId("623c05d9934a0b588b481757"),
+  level: 1,
+  language: 'Python',
+  questionType: 'single',
+  question: 'Which of the following is used to define a block of code in Python language?',
+  marks: 4,
+  options: [
     {
-      text: 'Serialization',
-      _id: new ObjectId("623d4f5d461cb0fed685f1be")
+      text: 'Indentation',
+      _id: new ObjectId("623c05d9934a0b588b481758")
     },
+    { text: 'Key', _id: new ObjectId("623c05d9934a0b588b481759") },
+    { text: 'Brackets', _id: new ObjectId("623c05d9934a0b588b48175a") },
     {
-      text: 'Variable Shadowing',
-      _id: new ObjectId("623d4f5d461cb0fed685f1bf")
-    },
-    {
-      text: 'Threading',
-      _id: new ObjectId("623d4f5d461cb0fed685f1c0")
-    },
-    {
-      text: 'Abstraction',
-      _id: new ObjectId("623d4f5d461cb0fed685f1c1")
+      text: 'All of the mentioned',
+      _id: new ObjectId("623c05d9934a0b588b48175b")
     }
   ],
   answers: [
     {
-      text: 'Variable Shadowing',
-      _id: new ObjectId("623d4f5d461cb0fed685f1c2")
+      text: 'Indentation',
+      _id: new ObjectId("623c05d9934a0b588b48175c")
     }
   ],
   __v: 0
 },{
-  _id: new ObjectId("623d4fc5461cb0fed685f1c4"),
+  _id: new ObjectId("623c0603934a0b588b48175e"),
   level: 1,
-  language: 'java',
+  language: 'Python',
   questionType: 'single',
-  question: 'Which package contains the Random class?',
+  question: 'Is Python case sensitive when dealing with identifiers?  ',
+  marks: 2,
+  options: [
+    { text: 'no', _id: new ObjectId("623c0603934a0b588b48175f") },
+    { text: 'yes', _id: new ObjectId("623c0603934a0b588b481760") },
+    {
+      text: 'machine dependent',
+      _id: new ObjectId("623c0603934a0b588b481761")
+    },
+    {
+      text: 'none of the mentioned',
+      _id: new ObjectId("623c0603934a0b588b481762")
+    }
+  ],
+  answers: [ { text: 'no', _id: new ObjectId("623c0603934a0b588b481763") } ],
+  __v: 0
+},{
+  _id: new ObjectId("623c08485d1e56ff10268f76"),
+  level: 1,
+  language: 'Python',
+  questionType: 'single',
+  question: 'Python supports the creation of anonymous functions at runtime, using a construct called __________ ',
+  marks: 1,
+  options: [
+    { text: 'pi', _id: new ObjectId("623c08485d1e56ff10268f77") },
+    {
+      text: 'anonymous',
+      _id: new ObjectId("623c08485d1e56ff10268f78")
+    },
+    { text: 'lambda', _id: new ObjectId("623c08485d1e56ff10268f79") },
+    {
+      text: 'none of the mentioned',
+      _id: new ObjectId("623c08485d1e56ff10268f7a")
+    }
+  ],
+  answers: [ { text: 'lambda', _id: new ObjectId("623c08485d1e56ff10268f7b") } ],
+  __v: 0
+},{
+  _id: new ObjectId("623c08485d1e56ff10268f7c"),
+  level: 1,
+  language: 'Python',
+  questionType: 'single',
+  question: 'What does pip stand for python? ',
+  marks: 1,
+  options: [
+    {
+      text: 'unlimited length',
+      _id: new ObjectId("623c08485d1e56ff10268f7d")
+    },
+    {
+      text: 'all private members must have leading and trailing underscores',
+      _id: new ObjectId("623c08485d1e56ff10268f7e")
+    },
+    {
+      text: 'Preferred Installer Program',
+      _id: new ObjectId("623c08485d1e56ff10268f7f")
+    },
+    {
+      text: 'none of the mentioned',
+      _id: new ObjectId("623c08485d1e56ff10268f80")
+    }
+  ],
+  answers: [
+    {
+      text: 'Preferred Installer Program',
+      _id: new ObjectId("623c08485d1e56ff10268f81")
+    }
+  ],
+  __v: 0
+},{
+  _id: new ObjectId("623c08cd5d1e56ff10268f89"),
+  level: 1,
+  language: 'Python',
+  questionType: 'single',
+  question: 'Which of the following character is used to give single-line comments in Python?',
   marks: 3,
   options: [
-    {
-      text: 'java.util package',
-      _id: new ObjectId("623d4fc5461cb0fed685f1c5")
-    },
-    {
-      text: 'java.lang package',
-      _id: new ObjectId("623d4fc5461cb0fed685f1c6")
-    },
-    {
-      text: 'java.random package',
-      _id: new ObjectId("623d4fc5461cb0fed685f1c7")
-    },
-    {
-      text: 'java.io package',
-      _id: new ObjectId("623d4fc5461cb0fed685f1c8")
-    }
+    { text: '//', _id: new ObjectId("623c08cd5d1e56ff10268f8a") },
+    { text: '#', _id: new ObjectId("623c08cd5d1e56ff10268f8b") },
+    { text: ' !', _id: new ObjectId("623c08cd5d1e56ff10268f8c") },
+    { text: '/*', _id: new ObjectId("623c08cd5d1e56ff10268f8d") }
   ],
-  answers: [
-    {
-      text: 'java.util package',
-      _id: new ObjectId("623d4fc5461cb0fed685f1c9")
-    }
-  ],
+  answers: [ { text: '#', _id: new ObjectId("623c08cd5d1e56ff10268f8e") } ],
   __v: 0
 },{
-  _id: new ObjectId("623d5064461cb0fed685f1cd"),
+  _id: new ObjectId("623c08cd5d1e56ff10268f83"),
   level: 1,
-  language: 'java',
+  language: 'Python',
   questionType: 'single',
-  question: 'An interface with no fields or methods is known as a ______',
+  question: 'Which of the following is the correct extension of the Python file? ',
+  marks: 1,
+  options: [
+    { text: '.python', _id: new ObjectId("623c08cd5d1e56ff10268f84") },
+    { text: '.pl', _id: new ObjectId("623c08cd5d1e56ff10268f85") },
+    { text: '.py', _id: new ObjectId("623c08cd5d1e56ff10268f86") },
+    { text: '.p', _id: new ObjectId("623c08cd5d1e56ff10268f87") }
+  ],
+  answers: [ { text: '.py', _id: new ObjectId("623c08cd5d1e56ff10268f88") } ],
+  __v: 0
+},{
+  _id: new ObjectId("623c08cd5d1e56ff10268f8f"),
+  level: 1,
+  language: 'Python',
+  questionType: 'single',
+  question: 'Which of the following functions can help us to find the version of python that we are currently working on? ',
   marks: 2,
   options: [
     {
-      text: 'Runnable Interface',
-      _id: new ObjectId("623d5064461cb0fed685f1ce")
+      text: 'sys.version(1)',
+      _id: new ObjectId("623c08cd5d1e56ff10268f90")
     },
     {
-      text: 'Markable Interface',
-      _id: new ObjectId("623d5064461cb0fed685f1cf")
+      text: 'sys.version(0)',
+      _id: new ObjectId("623c08cd5d1e56ff10268f91")
     },
     {
-      text: 'Character Interface',
-      _id: new ObjectId("623d5064461cb0fed685f1d0")
+      text: 'sys.version()',
+      _id: new ObjectId("623c08cd5d1e56ff10268f92")
     },
     {
-      text: 'Abstract Interface',
-      _id: new ObjectId("623d5064461cb0fed685f1d1")
+      text: ' sys.version',
+      _id: new ObjectId("623c08cd5d1e56ff10268f93")
     }
   ],
   answers: [
     {
-      text: 'Markable Interface',
-      _id: new ObjectId("623d5064461cb0fed685f1d2")
-    }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("623d50c4461cb0fed685f1d4"),
-  level: 1,
-  language: 'java',
-  questionType: 'single',
-  question: 'Which of the following is an immediate subclass of the Panel class?',
-  marks: 1,
-  options: [
-    {
-      text: 'Applet class',
-      _id: new ObjectId("623d50c4461cb0fed685f1d5")
-    },
-    {
-      text: 'Window class',
-      _id: new ObjectId("623d50c4461cb0fed685f1d6")
-    },
-    {
-      text: 'Frame Class',
-      _id: new ObjectId("623d50c4461cb0fed685f1d7")
-    },
-    {
-      text: 'Dialogue class',
-      _id: new ObjectId("623d50c4461cb0fed685f1d8")
-    }
-  ],
-  answers: [
-    {
-      text: 'Applet class',
-      _id: new ObjectId("623d50c4461cb0fed685f1d9")
-    }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("623d5117461cb0fed685f1db"),
-  level: 1,
-  language: 'java',
-  questionType: 'single',
-  question: 'In which memory a String is stored, when we create a string using new operator?',
-  marks: 2,
-  options: [
-    { text: 'stack', _id: new ObjectId("623d5117461cb0fed685f1dc") },
-    {
-      text: 'heap memory',
-      _id: new ObjectId("623d5117461cb0fed685f1dd")
-    },
-    {
-      text: 'string memory',
-      _id: new ObjectId("623d5117461cb0fed685f1de")
-    },
-    {
-      text: 'main memory',
-      _id: new ObjectId("623d5117461cb0fed685f1df")
-    }
-  ],
-  answers: [
-    {
-      text: 'heap memory',
-      _id: new ObjectId("623d5117461cb0fed685f1e0")
-    }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("623d5158461cb0fed685f1e2"),
-  level: 1,
-  language: 'java',
-  questionType: 'single',
-  question: ' Which of the following is a reserved keyword in Java?',
-  marks: 2,
-  options: [
-    { text: 'strictfp', _id: new ObjectId("623d5158461cb0fed685f1e3") },
-    { text: 'object', _id: new ObjectId("623d5158461cb0fed685f1e4") },
-    { text: 'class', _id: new ObjectId("623d5158461cb0fed685f1e5") },
-    {
-      text: 'main memory',
-      _id: new ObjectId("623d5158461cb0fed685f1e6")
-    }
-  ],
-  answers: [
-    { text: 'strictfp', _id: new ObjectId("623d5158461cb0fed685f1e7") }
-  ],
-  __v: 0
-} 
-  2022-04-06T20:11:32.070Z   -   [info] -  DISCONNECTED TO DB 
-  2022-04-06T20:11:32.178Z   -   [info] -  CONNECTED TO DB 
-  2022-04-09T19:00:00.017Z   -   [info] -  DISCONNECTED TO DB 
-  2022-04-10T03:15:48.492Z   -   [info] -  CONNECTED TO DB 
-  2022-04-10T03:59:00.810Z   -   [info] -  DISCONNECTED TO DB 
-  2022-04-10T04:00:46.504Z   -   [info] -  CONNECTED TO DB 
-  2022-04-11T04:37:23.879Z   -   [info] -  Server started at port 5001 
-  2022-04-11T04:37:24.713Z   -   [info] -  CONNECTED TO DB 
-  2022-04-11T04:37:28.641Z   -   [info] -  Result of GET of API /questions/language/level {
-  _id: new ObjectId("623bfe00934a0b588b481707"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'Which of the following cannot be a variable name in C?',
-  marks: 1,
-  options: [
-    { text: 'Volatile', _id: new ObjectId("623bfe00934a0b588b481708") },
-    { text: 'True', _id: new ObjectId("623bfe00934a0b588b481709") },
-    { text: 'Friends', _id: new ObjectId("623bfe00934a0b588b48170a") },
-    { text: 'Export', _id: new ObjectId("623bfe00934a0b588b48170b") }
-  ],
-  answers: [
-    { text: 'Volatile', _id: new ObjectId("623bfe00934a0b588b48170c") }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("623bfee5934a0b588b48170f"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'What is the result of logical or relational expression in C?',
-  marks: 1,
-  options: [
-    {
-      text: 'True or False',
-      _id: new ObjectId("623bfee5934a0b588b481710")
-    },
-    { text: '0 or 1', _id: new ObjectId("623bfee5934a0b588b481711") },
-    {
-      text: '0 if an expression is false and any positive number if an expression is true',
-      _id: new ObjectId("623bfee5934a0b588b481712")
-    },
-    { text: 'None', _id: new ObjectId("623bfee5934a0b588b481713") }
-  ],
-  answers: [ { text: '0 or 1', _id: new ObjectId("623bfee5934a0b588b481714") } ],
-  __v: 0
-},{
-  _id: new ObjectId("623bff37934a0b588b481716"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: ' What is an example of iteration in C',
-  marks: 1,
-  options: [
-    { text: 'for', _id: new ObjectId("623bff37934a0b588b481717") },
-    { text: 'while', _id: new ObjectId("623bff37934a0b588b481718") },
-    { text: 'do-while', _id: new ObjectId("623bff37934a0b588b481719") },
-    {
-      text: 'All the above',
-      _id: new ObjectId("623bff37934a0b588b48171a")
-    }
-  ],
-  answers: [
-    {
-      text: 'All the above',
-      _id: new ObjectId("623bff37934a0b588b48171b")
-    }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("623bff89934a0b588b48171d"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'Functions in C Language are always _________',
-  marks: 1,
-  options: [
-    { text: 'external', _id: new ObjectId("623bff89934a0b588b48171e") },
-    { text: 'internal', _id: new ObjectId("623bff89934a0b588b48171f") },
-    { text: 'both', _id: new ObjectId("623bff89934a0b588b481720") },
-    {
-      text: 'None of the above',
-      _id: new ObjectId("623bff89934a0b588b481721")
-    }
-  ],
-  answers: [
-    { text: 'external', _id: new ObjectId("623bff89934a0b588b481722") }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("623c0292934a0b588b481725"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'What is #include <stdio.h>?',
-  marks: 1,
-  options: [
-    {
-      text: 'File inclusion directive',
-      _id: new ObjectId("623c0292934a0b588b481726")
-    },
-    {
-      text: 'Inclusion directive',
-      _id: new ObjectId("623c0292934a0b588b481727")
-    },
-    {
-      text: 'Preprocessor directive',
-      _id: new ObjectId("623c0292934a0b588b481728")
-    },
-    { text: 'None', _id: new ObjectId("623c0292934a0b588b481729") }
-  ],
-  answers: [
-    {
-      text: 'Preprocessor directive',
-      _id: new ObjectId("623c0292934a0b588b48172a")
-    }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("623c02dd934a0b588b48172c"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'Which of the following return-type cannot be used for a function in C?',
-  marks: 1,
-  options: [
-    { text: 'char*', _id: new ObjectId("623c02dd934a0b588b48172d") },
-    { text: 'struct', _id: new ObjectId("623c02dd934a0b588b48172e") },
-    { text: 'void', _id: new ObjectId("623c02dd934a0b588b48172f") },
-    { text: 'None', _id: new ObjectId("623c02dd934a0b588b481730") }
-  ],
-  answers: [ { text: 'None', _id: new ObjectId("623c02dd934a0b588b481731") } ],
-  __v: 0
-},{
-  _id: new ObjectId("623c03cb934a0b588b481733"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'What is the sizeof(char) in a 32-bit C compiler?',
-  marks: 1,
-  options: [
-    { text: '1 bit', _id: new ObjectId("623c03cb934a0b588b481734") },
-    { text: '2 bit', _id: new ObjectId("623c03cb934a0b588b481735") },
-    { text: '1 byte', _id: new ObjectId("623c03cb934a0b588b481736") },
-    { text: '2 byte', _id: new ObjectId("623c03cb934a0b588b481737") }
-  ],
-  answers: [ { text: '1 byte', _id: new ObjectId("623c03cb934a0b588b481738") } ],
-  __v: 0
-},{
-  _id: new ObjectId("624163c7a0ad68e657bc444e"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'Who is the father of C Language',
-  marks: 1,
-  options: [
-    {
-      text: 'James Gausling',
-      _id: new ObjectId("624163c7a0ad68e657bc444f")
-    },
-    {
-      text: 'Dennis Ritche',
-      _id: new ObjectId("624163c7a0ad68e657bc4450")
-    },
-    {
-      text: 'Van Rossum',
-      _id: new ObjectId("624163c7a0ad68e657bc4451")
-    },
-    {
-      text: 'Bjarne Stroustrup',
-      _id: new ObjectId("624163c7a0ad68e657bc4452")
-    }
-  ],
-  answers: [
-    {
-      text: 'Dennis Ritche',
-      _id: new ObjectId("624163c7a0ad68e657bc4453")
-    }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("62416432a0ad68e657bc445c"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'All keywords in C are in __________',
-  marks: 2,
-  options: [
-    {
-      text: 'lowercase',
-      _id: new ObjectId("62416432a0ad68e657bc445d")
-    },
-    {
-      text: 'uppercase',
-      _id: new ObjectId("62416432a0ad68e657bc445e")
-    },
-    {
-      text: 'camelcase',
-      _id: new ObjectId("62416432a0ad68e657bc445f")
-    },
-    { text: 'None', _id: new ObjectId("62416432a0ad68e657bc4460") }
-  ],
-  answers: [
-    {
-      text: 'lowercase',
-      _id: new ObjectId("62416432a0ad68e657bc4461")
-    }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("62416432a0ad68e657bc4456"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'Which of the following is not a valid C variable name?',
-  marks: 2,
-  options: [
-    {
-      text: 'int number',
-      _id: new ObjectId("62416432a0ad68e657bc4457")
-    },
-    {
-      text: 'float rate',
-      _id: new ObjectId("62416432a0ad68e657bc4458")
-    },
-    {
-      text: 'int variable_count',
-      _id: new ObjectId("62416432a0ad68e657bc4459")
-    },
-    {
-      text: 'int $main',
-      _id: new ObjectId("62416432a0ad68e657bc445a")
-    }
-  ],
-  answers: [
-    {
-      text: 'int $main',
-      _id: new ObjectId("62416432a0ad68e657bc445b")
+      text: 'sys.version(1)',
+      _id: new ObjectId("623c08cd5d1e56ff10268f94")
     }
   ],
   __v: 0
 } 
-  2022-04-11T04:40:33.018Z   -   [info] -  Server started at port 5001 
-  2022-04-11T04:40:34.015Z   -   [info] -  CONNECTED TO DB 
-  2022-04-11T04:40:56.960Z   -   [info] -  Result of GET of API /questions/language/level {
-  _id: new ObjectId("623bfe00934a0b588b481707"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'Which of the following cannot be a variable name in C?',
-  marks: 1,
-  options: [
-    { text: 'Volatile', _id: new ObjectId("623bfe00934a0b588b481708") },
-    { text: 'True', _id: new ObjectId("623bfe00934a0b588b481709") },
-    { text: 'Friends', _id: new ObjectId("623bfe00934a0b588b48170a") },
-    { text: 'Export', _id: new ObjectId("623bfe00934a0b588b48170b") }
-  ],
-  answers: [
-    { text: 'Volatile', _id: new ObjectId("623bfe00934a0b588b48170c") }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("623bfee5934a0b588b48170f"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'What is the result of logical or relational expression in C?',
-  marks: 1,
-  options: [
-    {
-      text: 'True or False',
-      _id: new ObjectId("623bfee5934a0b588b481710")
-    },
-    { text: '0 or 1', _id: new ObjectId("623bfee5934a0b588b481711") },
-    {
-      text: '0 if an expression is false and any positive number if an expression is true',
-      _id: new ObjectId("623bfee5934a0b588b481712")
-    },
-    { text: 'None', _id: new ObjectId("623bfee5934a0b588b481713") }
-  ],
-  answers: [ { text: '0 or 1', _id: new ObjectId("623bfee5934a0b588b481714") } ],
-  __v: 0
-},{
-  _id: new ObjectId("623bff37934a0b588b481716"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: ' What is an example of iteration in C',
-  marks: 1,
-  options: [
-    { text: 'for', _id: new ObjectId("623bff37934a0b588b481717") },
-    { text: 'while', _id: new ObjectId("623bff37934a0b588b481718") },
-    { text: 'do-while', _id: new ObjectId("623bff37934a0b588b481719") },
-    {
-      text: 'All the above',
-      _id: new ObjectId("623bff37934a0b588b48171a")
-    }
-  ],
-  answers: [
-    {
-      text: 'All the above',
-      _id: new ObjectId("623bff37934a0b588b48171b")
-    }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("623bff89934a0b588b48171d"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'Functions in C Language are always _________',
-  marks: 1,
-  options: [
-    { text: 'external', _id: new ObjectId("623bff89934a0b588b48171e") },
-    { text: 'internal', _id: new ObjectId("623bff89934a0b588b48171f") },
-    { text: 'both', _id: new ObjectId("623bff89934a0b588b481720") },
-    {
-      text: 'None of the above',
-      _id: new ObjectId("623bff89934a0b588b481721")
-    }
-  ],
-  answers: [
-    { text: 'external', _id: new ObjectId("623bff89934a0b588b481722") }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("623c0292934a0b588b481725"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'What is #include <stdio.h>?',
-  marks: 1,
-  options: [
-    {
-      text: 'File inclusion directive',
-      _id: new ObjectId("623c0292934a0b588b481726")
-    },
-    {
-      text: 'Inclusion directive',
-      _id: new ObjectId("623c0292934a0b588b481727")
-    },
-    {
-      text: 'Preprocessor directive',
-      _id: new ObjectId("623c0292934a0b588b481728")
-    },
-    { text: 'None', _id: new ObjectId("623c0292934a0b588b481729") }
-  ],
-  answers: [
-    {
-      text: 'Preprocessor directive',
-      _id: new ObjectId("623c0292934a0b588b48172a")
-    }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("623c02dd934a0b588b48172c"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'Which of the following return-type cannot be used for a function in C?',
-  marks: 1,
-  options: [
-    { text: 'char*', _id: new ObjectId("623c02dd934a0b588b48172d") },
-    { text: 'struct', _id: new ObjectId("623c02dd934a0b588b48172e") },
-    { text: 'void', _id: new ObjectId("623c02dd934a0b588b48172f") },
-    { text: 'None', _id: new ObjectId("623c02dd934a0b588b481730") }
-  ],
-  answers: [ { text: 'None', _id: new ObjectId("623c02dd934a0b588b481731") } ],
-  __v: 0
-},{
-  _id: new ObjectId("623c03cb934a0b588b481733"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'What is the sizeof(char) in a 32-bit C compiler?',
-  marks: 1,
-  options: [
-    { text: '1 bit', _id: new ObjectId("623c03cb934a0b588b481734") },
-    { text: '2 bit', _id: new ObjectId("623c03cb934a0b588b481735") },
-    { text: '1 byte', _id: new ObjectId("623c03cb934a0b588b481736") },
-    { text: '2 byte', _id: new ObjectId("623c03cb934a0b588b481737") }
-  ],
-  answers: [ { text: '1 byte', _id: new ObjectId("623c03cb934a0b588b481738") } ],
-  __v: 0
-},{
-  _id: new ObjectId("624163c7a0ad68e657bc444e"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'Who is the father of C Language',
-  marks: 1,
-  options: [
-    {
-      text: 'James Gausling',
-      _id: new ObjectId("624163c7a0ad68e657bc444f")
-    },
-    {
-      text: 'Dennis Ritche',
-      _id: new ObjectId("624163c7a0ad68e657bc4450")
-    },
-    {
-      text: 'Van Rossum',
-      _id: new ObjectId("624163c7a0ad68e657bc4451")
-    },
-    {
-      text: 'Bjarne Stroustrup',
-      _id: new ObjectId("624163c7a0ad68e657bc4452")
-    }
-  ],
-  answers: [
-    {
-      text: 'Dennis Ritche',
-      _id: new ObjectId("624163c7a0ad68e657bc4453")
-    }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("62416432a0ad68e657bc445c"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'All keywords in C are in __________',
-  marks: 2,
-  options: [
-    {
-      text: 'lowercase',
-      _id: new ObjectId("62416432a0ad68e657bc445d")
-    },
-    {
-      text: 'uppercase',
-      _id: new ObjectId("62416432a0ad68e657bc445e")
-    },
-    {
-      text: 'camelcase',
-      _id: new ObjectId("62416432a0ad68e657bc445f")
-    },
-    { text: 'None', _id: new ObjectId("62416432a0ad68e657bc4460") }
-  ],
-  answers: [
-    {
-      text: 'lowercase',
-      _id: new ObjectId("62416432a0ad68e657bc4461")
-    }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("62416432a0ad68e657bc4456"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'Which of the following is not a valid C variable name?',
-  marks: 2,
-  options: [
-    {
-      text: 'int number',
-      _id: new ObjectId("62416432a0ad68e657bc4457")
-    },
-    {
-      text: 'float rate',
-      _id: new ObjectId("62416432a0ad68e657bc4458")
-    },
-    {
-      text: 'int variable_count',
-      _id: new ObjectId("62416432a0ad68e657bc4459")
-    },
-    {
-      text: 'int $main',
-      _id: new ObjectId("62416432a0ad68e657bc445a")
-    }
-  ],
-  answers: [
-    {
-      text: 'int $main',
-      _id: new ObjectId("62416432a0ad68e657bc445b")
-    }
-  ],
-  __v: 0
-} 
-  2022-04-11T04:43:52.445Z   -   [info] -  Server started at port 5001 
-  2022-04-11T04:43:53.377Z   -   [info] -  CONNECTED TO DB 
-  2022-04-11T04:43:56.490Z   -   [info] -  Result of GET of API /questions/language/level {
-  _id: new ObjectId("623bfe00934a0b588b481707"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'Which of the following cannot be a variable name in C?',
-  marks: 1,
-  options: [
-    { text: 'Volatile', _id: new ObjectId("623bfe00934a0b588b481708") },
-    { text: 'True', _id: new ObjectId("623bfe00934a0b588b481709") },
-    { text: 'Friends', _id: new ObjectId("623bfe00934a0b588b48170a") },
-    { text: 'Export', _id: new ObjectId("623bfe00934a0b588b48170b") }
-  ],
-  answers: [
-    { text: 'Volatile', _id: new ObjectId("623bfe00934a0b588b48170c") }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("623bfee5934a0b588b48170f"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'What is the result of logical or relational expression in C?',
-  marks: 1,
-  options: [
-    {
-      text: 'True or False',
-      _id: new ObjectId("623bfee5934a0b588b481710")
-    },
-    { text: '0 or 1', _id: new ObjectId("623bfee5934a0b588b481711") },
-    {
-      text: '0 if an expression is false and any positive number if an expression is true',
-      _id: new ObjectId("623bfee5934a0b588b481712")
-    },
-    { text: 'None', _id: new ObjectId("623bfee5934a0b588b481713") }
-  ],
-  answers: [ { text: '0 or 1', _id: new ObjectId("623bfee5934a0b588b481714") } ],
-  __v: 0
-},{
-  _id: new ObjectId("623bff37934a0b588b481716"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: ' What is an example of iteration in C',
-  marks: 1,
-  options: [
-    { text: 'for', _id: new ObjectId("623bff37934a0b588b481717") },
-    { text: 'while', _id: new ObjectId("623bff37934a0b588b481718") },
-    { text: 'do-while', _id: new ObjectId("623bff37934a0b588b481719") },
-    {
-      text: 'All the above',
-      _id: new ObjectId("623bff37934a0b588b48171a")
-    }
-  ],
-  answers: [
-    {
-      text: 'All the above',
-      _id: new ObjectId("623bff37934a0b588b48171b")
-    }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("623bff89934a0b588b48171d"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'Functions in C Language are always _________',
-  marks: 1,
-  options: [
-    { text: 'external', _id: new ObjectId("623bff89934a0b588b48171e") },
-    { text: 'internal', _id: new ObjectId("623bff89934a0b588b48171f") },
-    { text: 'both', _id: new ObjectId("623bff89934a0b588b481720") },
-    {
-      text: 'None of the above',
-      _id: new ObjectId("623bff89934a0b588b481721")
-    }
-  ],
-  answers: [
-    { text: 'external', _id: new ObjectId("623bff89934a0b588b481722") }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("623c0292934a0b588b481725"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'What is #include <stdio.h>?',
-  marks: 1,
-  options: [
-    {
-      text: 'File inclusion directive',
-      _id: new ObjectId("623c0292934a0b588b481726")
-    },
-    {
-      text: 'Inclusion directive',
-      _id: new ObjectId("623c0292934a0b588b481727")
-    },
-    {
-      text: 'Preprocessor directive',
-      _id: new ObjectId("623c0292934a0b588b481728")
-    },
-    { text: 'None', _id: new ObjectId("623c0292934a0b588b481729") }
-  ],
-  answers: [
-    {
-      text: 'Preprocessor directive',
-      _id: new ObjectId("623c0292934a0b588b48172a")
-    }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("623c02dd934a0b588b48172c"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'Which of the following return-type cannot be used for a function in C?',
-  marks: 1,
-  options: [
-    { text: 'char*', _id: new ObjectId("623c02dd934a0b588b48172d") },
-    { text: 'struct', _id: new ObjectId("623c02dd934a0b588b48172e") },
-    { text: 'void', _id: new ObjectId("623c02dd934a0b588b48172f") },
-    { text: 'None', _id: new ObjectId("623c02dd934a0b588b481730") }
-  ],
-  answers: [ { text: 'None', _id: new ObjectId("623c02dd934a0b588b481731") } ],
-  __v: 0
-},{
-  _id: new ObjectId("623c03cb934a0b588b481733"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'What is the sizeof(char) in a 32-bit C compiler?',
-  marks: 1,
-  options: [
-    { text: '1 bit', _id: new ObjectId("623c03cb934a0b588b481734") },
-    { text: '2 bit', _id: new ObjectId("623c03cb934a0b588b481735") },
-    { text: '1 byte', _id: new ObjectId("623c03cb934a0b588b481736") },
-    { text: '2 byte', _id: new ObjectId("623c03cb934a0b588b481737") }
-  ],
-  answers: [ { text: '1 byte', _id: new ObjectId("623c03cb934a0b588b481738") } ],
-  __v: 0
-},{
-  _id: new ObjectId("624163c7a0ad68e657bc444e"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'Who is the father of C Language',
-  marks: 1,
-  options: [
-    {
-      text: 'James Gausling',
-      _id: new ObjectId("624163c7a0ad68e657bc444f")
-    },
-    {
-      text: 'Dennis Ritche',
-      _id: new ObjectId("624163c7a0ad68e657bc4450")
-    },
-    {
-      text: 'Van Rossum',
-      _id: new ObjectId("624163c7a0ad68e657bc4451")
-    },
-    {
-      text: 'Bjarne Stroustrup',
-      _id: new ObjectId("624163c7a0ad68e657bc4452")
-    }
-  ],
-  answers: [
-    {
-      text: 'Dennis Ritche',
-      _id: new ObjectId("624163c7a0ad68e657bc4453")
-    }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("62416432a0ad68e657bc445c"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'All keywords in C are in __________',
-  marks: 2,
-  options: [
-    {
-      text: 'lowercase',
-      _id: new ObjectId("62416432a0ad68e657bc445d")
-    },
-    {
-      text: 'uppercase',
-      _id: new ObjectId("62416432a0ad68e657bc445e")
-    },
-    {
-      text: 'camelcase',
-      _id: new ObjectId("62416432a0ad68e657bc445f")
-    },
-    { text: 'None', _id: new ObjectId("62416432a0ad68e657bc4460") }
-  ],
-  answers: [
-    {
-      text: 'lowercase',
-      _id: new ObjectId("62416432a0ad68e657bc4461")
-    }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("62416432a0ad68e657bc4456"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'Which of the following is not a valid C variable name?',
-  marks: 2,
-  options: [
-    {
-      text: 'int number',
-      _id: new ObjectId("62416432a0ad68e657bc4457")
-    },
-    {
-      text: 'float rate',
-      _id: new ObjectId("62416432a0ad68e657bc4458")
-    },
-    {
-      text: 'int variable_count',
-      _id: new ObjectId("62416432a0ad68e657bc4459")
-    },
-    {
-      text: 'int $main',
-      _id: new ObjectId("62416432a0ad68e657bc445a")
-    }
-  ],
-  answers: [
-    {
-      text: 'int $main',
-      _id: new ObjectId("62416432a0ad68e657bc445b")
-    }
-  ],
-  __v: 0
-} 
-  2022-04-11T04:44:02.634Z   -   [info] -  [object Object] 
-  2022-04-11T04:44:02.634Z   -   [info] -  The app received a new client log: 3 
-  2022-04-11T04:44:12.683Z   -   [info] -  Result of GET of API /questions/language/level {
-  _id: new ObjectId("623bfe00934a0b588b481707"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'Which of the following cannot be a variable name in C?',
-  marks: 1,
-  options: [
-    { text: 'Volatile', _id: new ObjectId("623bfe00934a0b588b481708") },
-    { text: 'True', _id: new ObjectId("623bfe00934a0b588b481709") },
-    { text: 'Friends', _id: new ObjectId("623bfe00934a0b588b48170a") },
-    { text: 'Export', _id: new ObjectId("623bfe00934a0b588b48170b") }
-  ],
-  answers: [
-    { text: 'Volatile', _id: new ObjectId("623bfe00934a0b588b48170c") }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("623bfee5934a0b588b48170f"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'What is the result of logical or relational expression in C?',
-  marks: 1,
-  options: [
-    {
-      text: 'True or False',
-      _id: new ObjectId("623bfee5934a0b588b481710")
-    },
-    { text: '0 or 1', _id: new ObjectId("623bfee5934a0b588b481711") },
-    {
-      text: '0 if an expression is false and any positive number if an expression is true',
-      _id: new ObjectId("623bfee5934a0b588b481712")
-    },
-    { text: 'None', _id: new ObjectId("623bfee5934a0b588b481713") }
-  ],
-  answers: [ { text: '0 or 1', _id: new ObjectId("623bfee5934a0b588b481714") } ],
-  __v: 0
-},{
-  _id: new ObjectId("623bff37934a0b588b481716"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: ' What is an example of iteration in C',
-  marks: 1,
-  options: [
-    { text: 'for', _id: new ObjectId("623bff37934a0b588b481717") },
-    { text: 'while', _id: new ObjectId("623bff37934a0b588b481718") },
-    { text: 'do-while', _id: new ObjectId("623bff37934a0b588b481719") },
-    {
-      text: 'All the above',
-      _id: new ObjectId("623bff37934a0b588b48171a")
-    }
-  ],
-  answers: [
-    {
-      text: 'All the above',
-      _id: new ObjectId("623bff37934a0b588b48171b")
-    }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("623bff89934a0b588b48171d"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'Functions in C Language are always _________',
-  marks: 1,
-  options: [
-    { text: 'external', _id: new ObjectId("623bff89934a0b588b48171e") },
-    { text: 'internal', _id: new ObjectId("623bff89934a0b588b48171f") },
-    { text: 'both', _id: new ObjectId("623bff89934a0b588b481720") },
-    {
-      text: 'None of the above',
-      _id: new ObjectId("623bff89934a0b588b481721")
-    }
-  ],
-  answers: [
-    { text: 'external', _id: new ObjectId("623bff89934a0b588b481722") }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("623c0292934a0b588b481725"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'What is #include <stdio.h>?',
-  marks: 1,
-  options: [
-    {
-      text: 'File inclusion directive',
-      _id: new ObjectId("623c0292934a0b588b481726")
-    },
-    {
-      text: 'Inclusion directive',
-      _id: new ObjectId("623c0292934a0b588b481727")
-    },
-    {
-      text: 'Preprocessor directive',
-      _id: new ObjectId("623c0292934a0b588b481728")
-    },
-    { text: 'None', _id: new ObjectId("623c0292934a0b588b481729") }
-  ],
-  answers: [
-    {
-      text: 'Preprocessor directive',
-      _id: new ObjectId("623c0292934a0b588b48172a")
-    }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("623c02dd934a0b588b48172c"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'Which of the following return-type cannot be used for a function in C?',
-  marks: 1,
-  options: [
-    { text: 'char*', _id: new ObjectId("623c02dd934a0b588b48172d") },
-    { text: 'struct', _id: new ObjectId("623c02dd934a0b588b48172e") },
-    { text: 'void', _id: new ObjectId("623c02dd934a0b588b48172f") },
-    { text: 'None', _id: new ObjectId("623c02dd934a0b588b481730") }
-  ],
-  answers: [ { text: 'None', _id: new ObjectId("623c02dd934a0b588b481731") } ],
-  __v: 0
-},{
-  _id: new ObjectId("623c03cb934a0b588b481733"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'What is the sizeof(char) in a 32-bit C compiler?',
-  marks: 1,
-  options: [
-    { text: '1 bit', _id: new ObjectId("623c03cb934a0b588b481734") },
-    { text: '2 bit', _id: new ObjectId("623c03cb934a0b588b481735") },
-    { text: '1 byte', _id: new ObjectId("623c03cb934a0b588b481736") },
-    { text: '2 byte', _id: new ObjectId("623c03cb934a0b588b481737") }
-  ],
-  answers: [ { text: '1 byte', _id: new ObjectId("623c03cb934a0b588b481738") } ],
-  __v: 0
-},{
-  _id: new ObjectId("624163c7a0ad68e657bc444e"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'Who is the father of C Language',
-  marks: 1,
-  options: [
-    {
-      text: 'James Gausling',
-      _id: new ObjectId("624163c7a0ad68e657bc444f")
-    },
-    {
-      text: 'Dennis Ritche',
-      _id: new ObjectId("624163c7a0ad68e657bc4450")
-    },
-    {
-      text: 'Van Rossum',
-      _id: new ObjectId("624163c7a0ad68e657bc4451")
-    },
-    {
-      text: 'Bjarne Stroustrup',
-      _id: new ObjectId("624163c7a0ad68e657bc4452")
-    }
-  ],
-  answers: [
-    {
-      text: 'Dennis Ritche',
-      _id: new ObjectId("624163c7a0ad68e657bc4453")
-    }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("62416432a0ad68e657bc445c"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'All keywords in C are in __________',
-  marks: 2,
-  options: [
-    {
-      text: 'lowercase',
-      _id: new ObjectId("62416432a0ad68e657bc445d")
-    },
-    {
-      text: 'uppercase',
-      _id: new ObjectId("62416432a0ad68e657bc445e")
-    },
-    {
-      text: 'camelcase',
-      _id: new ObjectId("62416432a0ad68e657bc445f")
-    },
-    { text: 'None', _id: new ObjectId("62416432a0ad68e657bc4460") }
-  ],
-  answers: [
-    {
-      text: 'lowercase',
-      _id: new ObjectId("62416432a0ad68e657bc4461")
-    }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("62416432a0ad68e657bc4456"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'Which of the following is not a valid C variable name?',
-  marks: 2,
-  options: [
-    {
-      text: 'int number',
-      _id: new ObjectId("62416432a0ad68e657bc4457")
-    },
-    {
-      text: 'float rate',
-      _id: new ObjectId("62416432a0ad68e657bc4458")
-    },
-    {
-      text: 'int variable_count',
-      _id: new ObjectId("62416432a0ad68e657bc4459")
-    },
-    {
-      text: 'int $main',
-      _id: new ObjectId("62416432a0ad68e657bc445a")
-    }
-  ],
-  answers: [
-    {
-      text: 'int $main',
-      _id: new ObjectId("62416432a0ad68e657bc445b")
-    }
-  ],
-  __v: 0
-} 
-  2022-04-11T04:45:59.654Z   -   [info] -  [object Object] 
-  2022-04-11T04:45:59.654Z   -   [info] -  The app received a new client log: 10 
-  2022-04-11T04:46:07.582Z   -   [info] -  Result of GET of API /questions/language/level {
-  _id: new ObjectId("623c153a5d1e56ff10268fa2"),
-  level: 2,
-  language: 'C',
-  questionType: 'single',
-  question: 'A global variable is declared __________',
-  marks: 2,
-  options: [
-    {
-      text: 'Outside of the function',
-      _id: new ObjectId("623c153a5d1e56ff10268fa3")
-    },
-    {
-      text: 'Inside of the function',
-      _id: new ObjectId("623c153a5d1e56ff10268fa4")
-    },
-    {
-      text: 'With the function',
-      _id: new ObjectId("623c153a5d1e56ff10268fa5")
-    },
-    {
-      text: 'Anywhere in the program',
-      _id: new ObjectId("623c153a5d1e56ff10268fa6")
-    }
-  ],
-  answers: [
-    {
-      text: 'Outside of the function',
-      _id: new ObjectId("623c153a5d1e56ff10268fa7")
-    }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("623c153a5d1e56ff10268fc0"),
-  level: 2,
-  language: 'C',
-  questionType: 'single',
-  question: 'The enum keyword is used to assign names to the ________ constants',
-  marks: 2,
-  options: [
-    { text: 'Integer', _id: new ObjectId("623c153a5d1e56ff10268fc1") },
-    { text: 'String', _id: new ObjectId("623c153a5d1e56ff10268fc2") },
-    {
-      text: 'Character',
-      _id: new ObjectId("623c153a5d1e56ff10268fc3")
-    },
-    {
-      text: 'All the above',
-      _id: new ObjectId("623c153a5d1e56ff10268fc4")
-    }
-  ],
-  answers: [
-    { text: 'Integer', _id: new ObjectId("623c153a5d1e56ff10268fc5") }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("623c153a5d1e56ff10268f96"),
-  level: 2,
-  language: 'C',
-  questionType: 'single',
-  question: 'Array is ________- data structure',
-  marks: 1,
-  options: [
-    {
-      text: 'non-linear',
-      _id: new ObjectId("623c153a5d1e56ff10268f97")
-    },
-    { text: 'linear', _id: new ObjectId("623c153a5d1e56ff10268f98") },
-    { text: 'primary', _id: new ObjectId("623c153a5d1e56ff10268f99") },
-    { text: 'datatype', _id: new ObjectId("623c153a5d1e56ff10268f9a") }
-  ],
-  answers: [ { text: 'linear', _id: new ObjectId("623c153a5d1e56ff10268f9b") } ],
-  __v: 0
-},{
-  _id: new ObjectId("623c153a5d1e56ff10268fcc"),
-  level: 2,
-  language: 'C',
-  questionType: 'single',
-  question: 'Which of the following variable name is correct in c language?',
-  marks: 1,
-  options: [
-    { text: 'For', _id: new ObjectId("623c153a5d1e56ff10268fcd") },
-    { text: 'for', _id: new ObjectId("623c153a5d1e56ff10268fce") },
-    {
-      text: 'Basic salary',
-      _id: new ObjectId("623c153a5d1e56ff10268fcf")
-    },
-    { text: 'hello', _id: new ObjectId("623c153a5d1e56ff10268fd0") }
-  ],
-  answers: [ { text: 'For', _id: new ObjectId("623c153a5d1e56ff10268fd1") } ],
-  __v: 0
-},{
-  _id: new ObjectId("623c153a5d1e56ff10268f9c"),
-  level: 2,
-  language: 'C',
-  questionType: 'single',
-  question: 'Which of the following statement is correct about the C language?',
-  marks: 2,
-  options: [
-    {
-      text: 'The C language is a binary language with some extra features',
-      _id: new ObjectId("623c153a5d1e56ff10268f9d")
-    },
-    {
-      text: 'The C language is a high-level language with some low features',
-      _id: new ObjectId("623c153a5d1e56ff10268f9e")
-    },
-    {
-      text: 'The C language is a mid-level language with some high features',
-      _id: new ObjectId("623c153a5d1e56ff10268f9f")
-    },
-    {
-      text: 'The C language is a low-level language',
-      _id: new ObjectId("623c153a5d1e56ff10268fa0")
-    }
-  ],
-  answers: [
-    {
-      text: 'The C language is a mid-level language with some high features',
-      _id: new ObjectId("623c153a5d1e56ff10268fa1")
-    }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("623c153a5d1e56ff10268fae"),
-  level: 2,
-  language: 'C',
-  questionType: 'single',
-  question: 'Which of the following function is used to write the integer in a file?',
-  marks: 2,
-  options: [
-    { text: 'getw()', _id: new ObjectId("623c153a5d1e56ff10268faf") },
-    { text: 'putw()', _id: new ObjectId("623c153a5d1e56ff10268fb0") },
-    {
-      text: 'int value',
-      _id: new ObjectId("623c153a5d1e56ff10268fb1")
-    },
-    { text: 'float f', _id: new ObjectId("623c153a5d1e56ff10268fb2") }
-  ],
-  answers: [ { text: 'putw()', _id: new ObjectId("623c153a5d1e56ff10268fb3") } ],
-  __v: 0
-},{
-  _id: new ObjectId("623c153a5d1e56ff10268fa8"),
-  level: 2,
-  language: 'C',
-  questionType: 'single',
-  question: 'Who defines the user-defined function? ',
-  marks: 1,
-  options: [
-    { text: 'Compiler', _id: new ObjectId("623c153a5d1e56ff10268fa9") },
-    {
-      text: 'ComputerLibrary',
-      _id: new ObjectId("623c153a5d1e56ff10268faa")
-    },
-    { text: 'Computer', _id: new ObjectId("623c153a5d1e56ff10268fab") },
-    { text: 'Users', _id: new ObjectId("623c153a5d1e56ff10268fac") }
-  ],
-  answers: [ { text: 'Users', _id: new ObjectId("623c153a5d1e56ff10268fad") } ],
-  __v: 0
-},{
-  _id: new ObjectId("623c153a5d1e56ff10268fba"),
-  level: 2,
-  language: 'C',
-  questionType: 'single',
-  question: 'Which of the following keywords is used to prevent any kind of change in a variable?',
-  marks: 3,
-  options: [
-    { text: 'continue', _id: new ObjectId("623c153a5d1e56ff10268fbb") },
-    { text: 'const', _id: new ObjectId("623c153a5d1e56ff10268fbc") },
-    { text: 'struct', _id: new ObjectId("623c153a5d1e56ff10268fbd") },
-    { text: 'extern', _id: new ObjectId("623c153a5d1e56ff10268fbe") }
-  ],
-  answers: [ { text: 'const', _id: new ObjectId("623c153a5d1e56ff10268fbf") } ],
-  __v: 0
-},{
-  _id: new ObjectId("623c153a5d1e56ff10268fc6"),
-  level: 2,
-  language: 'C',
-  questionType: 'single',
-  question: 'Which of the following keyword is used for union in c language?',
-  marks: 1,
-  options: [
-    { text: 'union', _id: new ObjectId("623c153a5d1e56ff10268fc7") },
-    { text: 'uni', _id: new ObjectId("623c153a5d1e56ff10268fc8") },
-    { text: 'ion', _id: new ObjectId("623c153a5d1e56ff10268fc9") },
-    { text: 'unt', _id: new ObjectId("623c153a5d1e56ff10268fca") }
-  ],
-  answers: [ { text: 'union', _id: new ObjectId("623c153a5d1e56ff10268fcb") } ],
-  __v: 0
-},{
-  _id: new ObjectId("623c153a5d1e56ff10268fb4"),
-  level: 2,
-  language: 'C',
-  questionType: 'single',
-  question: 'which of the following modes, the user can read and write the file?',
-  marks: 2,
-  options: [
-    { text: 'r', _id: new ObjectId("623c153a5d1e56ff10268fb5") },
-    { text: 'w', _id: new ObjectId("623c153a5d1e56ff10268fb6") },
-    { text: 'r+', _id: new ObjectId("623c153a5d1e56ff10268fb7") },
-    { text: 'b+', _id: new ObjectId("623c153a5d1e56ff10268fb8") }
-  ],
-  answers: [ { text: 'r+', _id: new ObjectId("623c153a5d1e56ff10268fb9") } ],
-  __v: 0
-} 
-  2022-04-11T04:47:44.688Z   -   [info] -  Result of GET of API /questions/language/level {
-  _id: new ObjectId("623bfe00934a0b588b481707"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'Which of the following cannot be a variable name in C?',
-  marks: 1,
-  options: [
-    { text: 'Volatile', _id: new ObjectId("623bfe00934a0b588b481708") },
-    { text: 'True', _id: new ObjectId("623bfe00934a0b588b481709") },
-    { text: 'Friends', _id: new ObjectId("623bfe00934a0b588b48170a") },
-    { text: 'Export', _id: new ObjectId("623bfe00934a0b588b48170b") }
-  ],
-  answers: [
-    { text: 'Volatile', _id: new ObjectId("623bfe00934a0b588b48170c") }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("623bfee5934a0b588b48170f"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'What is the result of logical or relational expression in C?',
-  marks: 1,
-  options: [
-    {
-      text: 'True or False',
-      _id: new ObjectId("623bfee5934a0b588b481710")
-    },
-    { text: '0 or 1', _id: new ObjectId("623bfee5934a0b588b481711") },
-    {
-      text: '0 if an expression is false and any positive number if an expression is true',
-      _id: new ObjectId("623bfee5934a0b588b481712")
-    },
-    { text: 'None', _id: new ObjectId("623bfee5934a0b588b481713") }
-  ],
-  answers: [ { text: '0 or 1', _id: new ObjectId("623bfee5934a0b588b481714") } ],
-  __v: 0
-},{
-  _id: new ObjectId("623bff37934a0b588b481716"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: ' What is an example of iteration in C',
-  marks: 1,
-  options: [
-    { text: 'for', _id: new ObjectId("623bff37934a0b588b481717") },
-    { text: 'while', _id: new ObjectId("623bff37934a0b588b481718") },
-    { text: 'do-while', _id: new ObjectId("623bff37934a0b588b481719") },
-    {
-      text: 'All the above',
-      _id: new ObjectId("623bff37934a0b588b48171a")
-    }
-  ],
-  answers: [
-    {
-      text: 'All the above',
-      _id: new ObjectId("623bff37934a0b588b48171b")
-    }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("623bff89934a0b588b48171d"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'Functions in C Language are always _________',
-  marks: 1,
-  options: [
-    { text: 'external', _id: new ObjectId("623bff89934a0b588b48171e") },
-    { text: 'internal', _id: new ObjectId("623bff89934a0b588b48171f") },
-    { text: 'both', _id: new ObjectId("623bff89934a0b588b481720") },
-    {
-      text: 'None of the above',
-      _id: new ObjectId("623bff89934a0b588b481721")
-    }
-  ],
-  answers: [
-    { text: 'external', _id: new ObjectId("623bff89934a0b588b481722") }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("623c0292934a0b588b481725"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'What is #include <stdio.h>?',
-  marks: 1,
-  options: [
-    {
-      text: 'File inclusion directive',
-      _id: new ObjectId("623c0292934a0b588b481726")
-    },
-    {
-      text: 'Inclusion directive',
-      _id: new ObjectId("623c0292934a0b588b481727")
-    },
-    {
-      text: 'Preprocessor directive',
-      _id: new ObjectId("623c0292934a0b588b481728")
-    },
-    { text: 'None', _id: new ObjectId("623c0292934a0b588b481729") }
-  ],
-  answers: [
-    {
-      text: 'Preprocessor directive',
-      _id: new ObjectId("623c0292934a0b588b48172a")
-    }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("623c02dd934a0b588b48172c"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'Which of the following return-type cannot be used for a function in C?',
-  marks: 1,
-  options: [
-    { text: 'char*', _id: new ObjectId("623c02dd934a0b588b48172d") },
-    { text: 'struct', _id: new ObjectId("623c02dd934a0b588b48172e") },
-    { text: 'void', _id: new ObjectId("623c02dd934a0b588b48172f") },
-    { text: 'None', _id: new ObjectId("623c02dd934a0b588b481730") }
-  ],
-  answers: [ { text: 'None', _id: new ObjectId("623c02dd934a0b588b481731") } ],
-  __v: 0
-},{
-  _id: new ObjectId("623c03cb934a0b588b481733"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'What is the sizeof(char) in a 32-bit C compiler?',
-  marks: 1,
-  options: [
-    { text: '1 bit', _id: new ObjectId("623c03cb934a0b588b481734") },
-    { text: '2 bit', _id: new ObjectId("623c03cb934a0b588b481735") },
-    { text: '1 byte', _id: new ObjectId("623c03cb934a0b588b481736") },
-    { text: '2 byte', _id: new ObjectId("623c03cb934a0b588b481737") }
-  ],
-  answers: [ { text: '1 byte', _id: new ObjectId("623c03cb934a0b588b481738") } ],
-  __v: 0
-},{
-  _id: new ObjectId("624163c7a0ad68e657bc444e"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'Who is the father of C Language',
-  marks: 1,
-  options: [
-    {
-      text: 'James Gausling',
-      _id: new ObjectId("624163c7a0ad68e657bc444f")
-    },
-    {
-      text: 'Dennis Ritche',
-      _id: new ObjectId("624163c7a0ad68e657bc4450")
-    },
-    {
-      text: 'Van Rossum',
-      _id: new ObjectId("624163c7a0ad68e657bc4451")
-    },
-    {
-      text: 'Bjarne Stroustrup',
-      _id: new ObjectId("624163c7a0ad68e657bc4452")
-    }
-  ],
-  answers: [
-    {
-      text: 'Dennis Ritche',
-      _id: new ObjectId("624163c7a0ad68e657bc4453")
-    }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("62416432a0ad68e657bc445c"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'All keywords in C are in __________',
-  marks: 2,
-  options: [
-    {
-      text: 'lowercase',
-      _id: new ObjectId("62416432a0ad68e657bc445d")
-    },
-    {
-      text: 'uppercase',
-      _id: new ObjectId("62416432a0ad68e657bc445e")
-    },
-    {
-      text: 'camelcase',
-      _id: new ObjectId("62416432a0ad68e657bc445f")
-    },
-    { text: 'None', _id: new ObjectId("62416432a0ad68e657bc4460") }
-  ],
-  answers: [
-    {
-      text: 'lowercase',
-      _id: new ObjectId("62416432a0ad68e657bc4461")
-    }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("62416432a0ad68e657bc4456"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'Which of the following is not a valid C variable name?',
-  marks: 2,
-  options: [
-    {
-      text: 'int number',
-      _id: new ObjectId("62416432a0ad68e657bc4457")
-    },
-    {
-      text: 'float rate',
-      _id: new ObjectId("62416432a0ad68e657bc4458")
-    },
-    {
-      text: 'int variable_count',
-      _id: new ObjectId("62416432a0ad68e657bc4459")
-    },
-    {
-      text: 'int $main',
-      _id: new ObjectId("62416432a0ad68e657bc445a")
-    }
-  ],
-  answers: [
-    {
-      text: 'int $main',
-      _id: new ObjectId("62416432a0ad68e657bc445b")
-    }
-  ],
-  __v: 0
-} 
-  2022-04-11T04:47:46.854Z   -   [info] -  Result of GET of API /questions/language/level {
-  _id: new ObjectId("623bfe00934a0b588b481707"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'Which of the following cannot be a variable name in C?',
-  marks: 1,
-  options: [
-    { text: 'Volatile', _id: new ObjectId("623bfe00934a0b588b481708") },
-    { text: 'True', _id: new ObjectId("623bfe00934a0b588b481709") },
-    { text: 'Friends', _id: new ObjectId("623bfe00934a0b588b48170a") },
-    { text: 'Export', _id: new ObjectId("623bfe00934a0b588b48170b") }
-  ],
-  answers: [
-    { text: 'Volatile', _id: new ObjectId("623bfe00934a0b588b48170c") }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("623bfee5934a0b588b48170f"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'What is the result of logical or relational expression in C?',
-  marks: 1,
-  options: [
-    {
-      text: 'True or False',
-      _id: new ObjectId("623bfee5934a0b588b481710")
-    },
-    { text: '0 or 1', _id: new ObjectId("623bfee5934a0b588b481711") },
-    {
-      text: '0 if an expression is false and any positive number if an expression is true',
-      _id: new ObjectId("623bfee5934a0b588b481712")
-    },
-    { text: 'None', _id: new ObjectId("623bfee5934a0b588b481713") }
-  ],
-  answers: [ { text: '0 or 1', _id: new ObjectId("623bfee5934a0b588b481714") } ],
-  __v: 0
-},{
-  _id: new ObjectId("623bff37934a0b588b481716"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: ' What is an example of iteration in C',
-  marks: 1,
-  options: [
-    { text: 'for', _id: new ObjectId("623bff37934a0b588b481717") },
-    { text: 'while', _id: new ObjectId("623bff37934a0b588b481718") },
-    { text: 'do-while', _id: new ObjectId("623bff37934a0b588b481719") },
-    {
-      text: 'All the above',
-      _id: new ObjectId("623bff37934a0b588b48171a")
-    }
-  ],
-  answers: [
-    {
-      text: 'All the above',
-      _id: new ObjectId("623bff37934a0b588b48171b")
-    }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("623bff89934a0b588b48171d"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'Functions in C Language are always _________',
-  marks: 1,
-  options: [
-    { text: 'external', _id: new ObjectId("623bff89934a0b588b48171e") },
-    { text: 'internal', _id: new ObjectId("623bff89934a0b588b48171f") },
-    { text: 'both', _id: new ObjectId("623bff89934a0b588b481720") },
-    {
-      text: 'None of the above',
-      _id: new ObjectId("623bff89934a0b588b481721")
-    }
-  ],
-  answers: [
-    { text: 'external', _id: new ObjectId("623bff89934a0b588b481722") }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("623c0292934a0b588b481725"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'What is #include <stdio.h>?',
-  marks: 1,
-  options: [
-    {
-      text: 'File inclusion directive',
-      _id: new ObjectId("623c0292934a0b588b481726")
-    },
-    {
-      text: 'Inclusion directive',
-      _id: new ObjectId("623c0292934a0b588b481727")
-    },
-    {
-      text: 'Preprocessor directive',
-      _id: new ObjectId("623c0292934a0b588b481728")
-    },
-    { text: 'None', _id: new ObjectId("623c0292934a0b588b481729") }
-  ],
-  answers: [
-    {
-      text: 'Preprocessor directive',
-      _id: new ObjectId("623c0292934a0b588b48172a")
-    }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("623c02dd934a0b588b48172c"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'Which of the following return-type cannot be used for a function in C?',
-  marks: 1,
-  options: [
-    { text: 'char*', _id: new ObjectId("623c02dd934a0b588b48172d") },
-    { text: 'struct', _id: new ObjectId("623c02dd934a0b588b48172e") },
-    { text: 'void', _id: new ObjectId("623c02dd934a0b588b48172f") },
-    { text: 'None', _id: new ObjectId("623c02dd934a0b588b481730") }
-  ],
-  answers: [ { text: 'None', _id: new ObjectId("623c02dd934a0b588b481731") } ],
-  __v: 0
-},{
-  _id: new ObjectId("623c03cb934a0b588b481733"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'What is the sizeof(char) in a 32-bit C compiler?',
-  marks: 1,
-  options: [
-    { text: '1 bit', _id: new ObjectId("623c03cb934a0b588b481734") },
-    { text: '2 bit', _id: new ObjectId("623c03cb934a0b588b481735") },
-    { text: '1 byte', _id: new ObjectId("623c03cb934a0b588b481736") },
-    { text: '2 byte', _id: new ObjectId("623c03cb934a0b588b481737") }
-  ],
-  answers: [ { text: '1 byte', _id: new ObjectId("623c03cb934a0b588b481738") } ],
-  __v: 0
-},{
-  _id: new ObjectId("624163c7a0ad68e657bc444e"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'Who is the father of C Language',
-  marks: 1,
-  options: [
-    {
-      text: 'James Gausling',
-      _id: new ObjectId("624163c7a0ad68e657bc444f")
-    },
-    {
-      text: 'Dennis Ritche',
-      _id: new ObjectId("624163c7a0ad68e657bc4450")
-    },
-    {
-      text: 'Van Rossum',
-      _id: new ObjectId("624163c7a0ad68e657bc4451")
-    },
-    {
-      text: 'Bjarne Stroustrup',
-      _id: new ObjectId("624163c7a0ad68e657bc4452")
-    }
-  ],
-  answers: [
-    {
-      text: 'Dennis Ritche',
-      _id: new ObjectId("624163c7a0ad68e657bc4453")
-    }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("62416432a0ad68e657bc445c"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'All keywords in C are in __________',
-  marks: 2,
-  options: [
-    {
-      text: 'lowercase',
-      _id: new ObjectId("62416432a0ad68e657bc445d")
-    },
-    {
-      text: 'uppercase',
-      _id: new ObjectId("62416432a0ad68e657bc445e")
-    },
-    {
-      text: 'camelcase',
-      _id: new ObjectId("62416432a0ad68e657bc445f")
-    },
-    { text: 'None', _id: new ObjectId("62416432a0ad68e657bc4460") }
-  ],
-  answers: [
-    {
-      text: 'lowercase',
-      _id: new ObjectId("62416432a0ad68e657bc4461")
-    }
-  ],
-  __v: 0
-},{
-  _id: new ObjectId("62416432a0ad68e657bc4456"),
-  level: 1,
-  language: 'C',
-  questionType: 'single',
-  question: 'Which of the following is not a valid C variable name?',
-  marks: 2,
-  options: [
-    {
-      text: 'int number',
-      _id: new ObjectId("62416432a0ad68e657bc4457")
-    },
-    {
-      text: 'float rate',
-      _id: new ObjectId("62416432a0ad68e657bc4458")
-    },
-    {
-      text: 'int variable_count',
-      _id: new ObjectId("62416432a0ad68e657bc4459")
-    },
-    {
-      text: 'int $main',
-      _id: new ObjectId("62416432a0ad68e657bc445a")
-    }
-  ],
-  answers: [
-    {
-      text: 'int $main',
-      _id: new ObjectId("62416432a0ad68e657bc445b")
-    }
-  ],
-  __v: 0
-} 
-  2022-04-11T04:47:50.615Z   -   [info] -  [object Object] 
-  2022-04-11T04:47:50.616Z   -   [info] -  The app received a new client log: 0 
